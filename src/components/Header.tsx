@@ -86,7 +86,7 @@ const Header = () => {
         <div className="fixed inset-0 z-50">
           <div className="fixed top-0 left-0 w-[80%] h-full bg-[#1E1E1E] p-6 shadow-lg overflow-y-auto">
             <div className="flex justify-between items-center mb-6">
-              <img src={Logo} alt="Rodha Logo" className="h-10" />
+              <img src={Logo} alt="Rodha Logo" className="h-14" />
               <button onClick={toggleSidebar} className="text-white">
                 <X size={24} />
               </button>

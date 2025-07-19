@@ -100,7 +100,7 @@ const Header = () => {
                 rel="noopener noreferrer"
               >
                 <button className="border border-white text-white px-8 py-2 rounded-full text-sm hover:bg-white hover:text-black transition w-full">
-                  Login
+                  Login 2
                 </button>
               </a>
               <a
@@ -129,10 +129,10 @@ const Header = () => {
           </div>
 
           {/* Backdrop */}
-          <div
+          {/* <div
             onClick={toggleSidebar}
             className="absolute inset-0  bg-opacity-70 z-40"
-          ></div>
+          ></div> */}
         </div>
       )}
     </header>

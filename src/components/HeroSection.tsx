@@ -28,7 +28,7 @@ const HeroSection = () => {
       className="bg-black text-white py-10 pb-0 p-4 sm:p-0 font-sans bg-back"
       style={{ backgroundImage: `url(${Bg_Back})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
     >
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 pb-5">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Left Text Section */}
         <div className="text-left flex flex-col justify-center">
           <h1 className="text-2xl md:text-4xl font-semibold leading-snug">
@@ -69,7 +69,7 @@ const HeroSection = () => {
         </div>
 
         {/* Right Image Section */}
-        <div className="relative flex justify-center items-center">
+        <div className="relative flex justify-center items-center pt-10">
           <img
             src={Hero_1}
             alt="Rodha Mentor"

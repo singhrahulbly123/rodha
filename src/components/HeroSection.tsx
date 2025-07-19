@@ -2,6 +2,26 @@ import React from 'react';
 import Hero_1 from '../assets/images/hero/hero-1.png';
 import Bg_Back from '../assets/images/hero/bg-back.jpg';
 
+const Heros_1 = import.meta.glob('/src/assets/images/team/team-*.png', { eager: true });
+const sortedImageKeys = Object.keys(Heros_1).sort((a, b) => {
+  const numA = parseInt(a.match(/team-(\d+)/)?.[1] || '0', 10);
+  const numB = parseInt(b.match(/team-(\d+)/)?.[1] || '0', 10);
+  return numA - numB;
+});
+const Heros_1Array = sortedImageKeys.map(key => (Heros_1[key] as any).default);
+const faculty = [
+  { name: "Ravi Sir", image: Heros_1Array[0], highlight: true },
+  { name: "Apoorv Sir", image: Heros_1Array[1] },
+  { name: "KD Sir", image: Heros_1Array[2], highlight: true },
+  { name: "Swapnil Sir", image: Heros_1Array[3] },
+  { name: "Tarun Sir", image: Heros_1Array[4], highlight: true },
+  { name: "Nikita Ma’am", image: Heros_1Array[5], highlight: true },
+  { name: "Brijesh Sir", image: Heros_1Array[6] },
+  { name: "Sanchit Sir", image: Heros_1Array[7], highlight: true },
+  { name: "Sharwari Ma’am", image: Heros_1Array[8] },
+];
+
+
 const HeroSection = () => {
   return (
     <div
@@ -55,6 +75,7 @@ const HeroSection = () => {
             alt="Rodha Mentor"
             className="w-full max-w-xs sm:max-w-md md:max-w-full rounded-xl shadow-lg"
           />
+          
         </div>
       </div>
     </div>
@@ -62,3 +83,5 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+

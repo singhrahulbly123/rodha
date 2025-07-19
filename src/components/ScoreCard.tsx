@@ -21,7 +21,7 @@ export default function ScoreCard() {
         <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 gap-4 p-4 sm:p-4">
           <div className="bg-orange-500 text-white p-4 rounded-xl">
             <p className="text-sm">Total Candidates</p>
-            <p className="text-2xl font-bold">03</p>
+            <p className="text-2xl font-bold">18934</p>
           </div>
           <div className="bg-[#4A4A4A] dark:bg-gray-200 p-4 rounded-xl">
             <p className="text-sm">Total Questions</p>
@@ -29,7 +29,7 @@ export default function ScoreCard() {
           </div>
           <div className="bg-orange-500 text-white p-4 rounded-xl">
             <p className="text-sm">Total Marks</p>
-            <p className="text-2xl font-bold">142</p>
+            <p className="text-2xl font-bold">204</p>
           </div>
           <div className="bg-[#4A4A4A] dark:bg-gray-200 p-4 rounded-xl">
             <p className="text-sm">Total Test Duration</p>
@@ -47,24 +47,24 @@ export default function ScoreCard() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-left font-semibold">
               <div className="space-y-2">
                 <div className="flex justify-between border-b border-gray-200 dark:border-gray-700 py-2">
-                  <p>Right Marks</p><p>03</p>
+                  <p>Right Marks</p><p>141</p>
                 </div>
                 <div className="flex justify-between border-b border-gray-200 dark:border-gray-700 py-2">
                   <p>Negative Marks</p><p>09</p>
                 </div>
                 <div className="flex justify-between border-b border-gray-200 dark:border-gray-700 py-2">
-                  <p>Left Question Marks</p><p>12</p>
+                  <p>Left Question Marks</p><p>11</p>
                 </div>
               </div>
               <div className="space-y-2">
                 <div className="flex justify-between border-b border-gray-200 dark:border-gray-700 py-2">
-                  <p>Attempted Questions</p><p>10</p>
+                  <p>Attempted Questions</p><p>57</p>
                 </div>
                 <div className="flex justify-between border-b border-gray-200 dark:border-gray-700 py-2">
-                  <p>Time On Questions</p><p>00:03:58</p>
+                  <p>Time On Questions</p><p>00:02:1</p>
                 </div>
                 <div className="flex justify-between border-b border-gray-200 dark:border-gray-700 py-2">
-                  <p>Avg Speed</p><p>17X</p>
+                  <p>Avg Speed</p><p>82.50%</p>
                 </div>
               </div>
             </div>
@@ -73,19 +73,19 @@ export default function ScoreCard() {
             <div className="flex flex-wrap gap-4 justify-between text-center">
               <div className="flex-1 min-w-[130px] bg-gray-200 dark:bg-[#e5e5e5] text-black dark:text-black py-3 rounded-md">
                 <p className="text-sm">Rank</p>
-                <p className="text-xl font-bold">02</p>
+                <p className="text-xl font-bold">18</p>
               </div>
               <div className="flex-1 min-w-[130px] bg-gray-200 dark:bg-[#e5e5e5] text-black dark:text-black py-3 rounded-md">
-                <p className="text-sm">Marks</p>
-                <p className="text-xl font-bold">-06</p>
+                <p className="text-sm">Score</p>
+                <p className="text-xl font-bold">132</p>
               </div>
               <div className="flex-1 min-w-[130px] bg-gray-200 dark:bg-[#e5e5e5] text-black dark:text-black py-3 rounded-md">
                 <p className="text-sm">Percentage</p>
-                <p className="text-xl font-bold">-14.29%</p>
+                <p className="text-xl font-bold">64.70%</p>
               </div>
               <div className="flex-1 min-w-[130px] bg-gray-200 dark:bg-[#e5e5e5] text-black dark:text-black py-3 rounded-md">
                 <p className="text-sm">Percentile</p>
-                <p className="text-xl font-bold">66.67</p>
+                <p className="text-xl font-bold">99.91</p>
               </div>
             </div>
           </div>

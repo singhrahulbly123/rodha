@@ -40,7 +40,7 @@ export default function Faculty() {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full max-w-[200px] h-auto object-cover"
+                  className="w-[200px] max-w-[200px] h-[200px] object-cover"
                 />
               </div>
               <p className="mt-4 text-sm md:text-base font-medium">

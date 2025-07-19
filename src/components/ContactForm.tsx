@@ -94,7 +94,7 @@ const Form = () => {
   };
 
   return (
-    <div className="relative w-full px-4 py-10 md:px-20 bg-white dark:bg-[#242424] text-[#2B2B2B] dark:text-white">
+    <div id="EnquireNow" className="relative w-full px-4 py-10 md:px-20 bg-white dark:bg-[#242424] text-[#2B2B2B] dark:text-white">
       {showPopup && status === "success" && (
         <div className="absolute top-4 right-4 z-50 flex items-center bg-green-500 text-white px-4 py-2 rounded-lg shadow-md">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-6 h-6 mr-2">

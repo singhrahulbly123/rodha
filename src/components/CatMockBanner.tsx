@@ -31,8 +31,8 @@ export default function CatMockBanner() {
             style={{ backgroundImage: `url(${bgImage})` }}
         >
             <div className="max-w-7xl mx-auto relative w-full flex flex-col md:flex-row items-center justify-between overflow-hidden p-3 sm:p-0">
-                <div className=" z-10 max-w-6xl text-center md:text-left pb-20">
-                    <div className="sm:h-[180px] h-[50px]"> </div>
+                <div className=" z-10 max-w-6xl text-center md:text-left pb-10">
+                    <div className="sm:h-[144px] h-[50px]"> </div>
                     <h1 className="text-3xl md:text-5xl font-semibold leading-tight mb-6 text-white">
                         Take A Free Full-Length Mock <br className="hidden md:block" />
                         Today to Analyse Your CAT 2025 <br className="hidden md:block" />

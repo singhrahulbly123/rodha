@@ -5,10 +5,10 @@ import Bg_Back from '../assets/images/hero/bg-back.jpg';
 const HeroSection = () => {
   return (
     <div
-      className="bg-black text-white py-10 pb-0 px-4 md:px-20 lg:px-32 font-sans bg-back"
+      className="bg-black text-white py-10 pb-0 font-sans bg-back"
       style={{ backgroundImage: `url(${Bg_Back})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
     >
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 pb-5">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 pb-5">
         {/* Left Text Section */}
         <div className="text-left flex flex-col justify-center">
           <h1 className="text-2xl md:text-4xl font-semibold leading-snug">

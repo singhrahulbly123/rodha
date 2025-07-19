@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import clsx from "clsx";
 import Icon_1 from "../assets/images/student/icon-1.png";
 
-const StudentImages = import.meta.glob("../assets/images/student/student-*.png", {
+const StudentImages = import.meta.glob("../assets/images/student/studen-*.png", {
   eager: true,
 });
 
@@ -65,97 +65,99 @@ const testimonials: Testimonial[] = [
   },
 
 
-  // {
-  //   name: "Siddharth Dev",
-  //   batch: "Batch - B4",
-  //   institute: "NMIMS",
-  //   image: Student_1Array[2],
-  //   imager: Icon_1,
-  //   highlightedText:
-  //     "After working for 5 years During the GDPI journey the in depth GK lectures by Priyam ma'am helped me flaunt my GK in most of the interviews.",
+  {
+    name: "Siddharth Dev",
+    batch: "Batch - B4",
+    institute: "NMIMS",
+    image: Student_1Array[3],
+    imager: Icon_1,
+    highlightedText:
+      "After working for 5 years During the GDPI journey the in depth GK lectures by Priyam ma'am helped me flaunt my GK in most of the interviews.",
 
-  //   description:
-  //     "switching back to studying was not easy especially since my mathematics has always been poor however, when I saw Ravi sir's lectures I knew that I should go for Rodha as a partner during this journey because I was able to grasp quants for what felt like the first time in my life of understanding mathematical concepts. and I'm forever grateful to the team and faculty at Rodha for helping me in this journey.",
-  // },
-
-
-
-  // {
-  //   name: "Sakshi Didwania",
-  //   batch: "Batch - B4",
-  //   institute: "XLRI",
-  //   image: Student_1Array[2],
-  //   imager: Icon_1,
-  //   highlightedText:
-  //     "Coming to the GDPI journey, the mentors at Rodha really boosted my confidence and prepared me in every way for the final interviews.",
-
-  //   description:
-  //     "Rodha has been played a pivotal role in my CAT & OMET preparation.Ravi sir has been a guide and motivator on the classes.A big thank you to team Rodha for their commitment and support in my journey! ",
-  // },
+    description:
+      "switching back to studying was not easy especially since my mathematics has always been poor however, when I saw Ravi sir's lectures I knew that I should go for Rodha as a partner during this journey because I was able to grasp quants for what felt like the first time in my life of understanding mathematical concepts. and I'm forever grateful to the team and faculty at Rodha for helping me in this journey.",
+  },
 
 
-  // {
-  //   name: "Kirti",
-  //   batch: "Batch - B2, GDPI",
-  //   institute: "IIM Kozhikode",
-  //   image: Student_1Array[2],
-  //   imager: Icon_1,
-  //   highlightedText:
-  //     "ODHA played a crucial role in helping me improve my performance in the Quant section, especially compared to last year when I scored only 50 percentile in CAT.",
 
-  //   description:
-  //     " R I'm truly grateful for their guidance. The GDPI course also significantly boosted my confidence for the interviews, and the regular current affairs updates kept me well-informed. The mentors were incredibly supportive throughout the journey.",
-  // },
-  // {
-  //   name: "Paras Hela",
-  //   batch: "Batch - B2",
-  //   institute: "IIM Lucknow",
-  //   image: Student_1Array[2],
-  //   imager: Icon_1,
-  //   highlightedText:
-  //     "As advised by Ravi Sir in one of the classes,  if you’ve come this far with CAT, don’t give up now. Go ahead and fight in the GDPI journey.",
+  {
+    name: "Sakshi Didwania",
+    batch: "Batch - B4",
+    institute: "XLRI",
+    image: Student_1Array[4],
+    imager: Icon_1,
+    highlightedText:
+      "Coming to the GDPI journey, the mentors at Rodha really boosted my confidence and prepared me in every way for the final interviews.",
 
-  //   description:
-  //     " Ravi Sir and Rodha really helped me improve my problem-solving skills and gave me the courage to take risks and keep fighting till last despite my financial and personal family problems. Even though I didn’t get a great percentile. Learn from the experience. Give your best to convert whatever calls you have. After that, decide if you want to try again or not.",
-  // },
+    description:
+      "Rodha has been played a pivotal role in my CAT & OMET preparation.Ravi sir has been a guide and motivator on the classes.A big thank you to team Rodha for their commitment and support in my journey! ",
+  },
 
 
-  // {
-  //   name: "Alok Kumar",
-  //   batch: "Batch - B4",
-  //   institute: "IIM Shillong",
-  //   image: Student_1Array[2],
-  //   imager: Icon_1,
-  //   highlightedText:
-  //     "Rodha has been instrumental in my CAT and OMET preparation, as well as during my GDPI journey.",
+  {
+    name: "Kirti",
+    batch: "Batch - B2, GDPI",
+    institute: "IIM Kozhikode",
+    image: Student_1Array[5],
+    imager: Icon_1,
+    highlightedText:
+      "ODHA played a crucial role in helping me improve my performance in the Quant section, especially compared to last year when I scored only 50 percentile in CAT.",
 
-  //   description:
-  //     "The guidance I received at every stage was structured, motivating, and incredibly insightful. Ravi Sir, in particular, has been a constant source of inspiration. His clarity of thought, strategic approach, and powerful words were the driving force behind my preparation."
-  // },
-  // {
-  //   name: "Chinmay Sahoo",
-  //   batch: "Batch - B2",
-  //   institute: "IIM Mumbai",
-  //   image: Student_1Array[2],
-  //   imager: Icon_1,
-  //   highlightedText:
-  //     "Rodha has helped me to score 99.76 percentile in CAT 24. Rodha has helped me specifically in VARC and LRDI. Thanks to the live classes, portal tests, sectional tests, and full-length mock tests.",
+    description:
+      " R I'm truly grateful for their guidance. The GDPI course also significantly boosted my confidence for the interviews, and the regular current affairs updates kept me well-informed. The mentors were incredibly supportive throughout the journey.",
+  },
+  {
+    name: "Paras Hela",
+    batch: "Batch - B2",
+    institute: "IIM Lucknow",
+    image: Student_1Array[6],
+    imager: Icon_1,
+    highlightedText:
+      "As advised by Ravi Sir in one of the classes,  if you’ve come this far with CAT, don’t give up now. Go ahead and fight in the GDPI journey.",
 
-  //   description:
-  //     "I have improved and developed a structured way to approach the questions. The vast and varied list of questions that I had at my disposal was all thanks to Rodha. Practicing these questions again and again helped me to develop the mindset and approach, because of which I was able to secure 99.76 percentile in CAT."
-  // },
-  // {
-  //   name: "Yash Pal",
-  //   batch: "Batch - B2",
-  //   institute: "IIM Mumbai",
-  //   image: Student_1Array[2],
-  //   imager: Icon_1,
-  //   highlightedText:
-  //     "The structured approach, expert faculty, and constant mentoring helped me stay focused and improve consistently. The mock tests played a crucial role in identifying my weak areas and working on them.",
+    description:
+      " Ravi Sir and Rodha really helped me improve my problem-solving skills and gave me the courage to take risks and keep fighting till last despite my financial and personal family problems. Even though I didn’t get a great percentile. Learn from the experience. Give your best to convert whatever calls you have. After that, decide if you want to try again or not.",
+  },
 
-  //   description:
-  //     "Coming from an Agriculture background, I knew I had to put in extra effort to crack the CAT. Joining Rodha turned out to be a great platform for my preparation journey. Thanks to the guidance and support from the Rodha team, I was able to convert IIM Lucknow."
-  // },
+
+  {
+    name: "Alok Kumar",
+    batch: "Batch - B4",
+    institute: "IIM Shillong",
+    image: Student_1Array[7],
+    imager: Icon_1,
+    highlightedText:
+      "Rodha has been instrumental in my CAT and OMET preparation, as well as during my GDPI journey.",
+
+    description:
+      "The guidance I received at every stage was structured, motivating, and incredibly insightful. Ravi Sir, in particular, has been a constant source of inspiration. His clarity of thought, strategic approach, and powerful words were the driving force behind my preparation."
+  },
+  {
+    name: "Chinmay Sahoo",
+    batch: "Batch - B2",
+    institute: "IIM Mumbai",
+    image: Student_1Array[8],
+    imager: Icon_1,
+    highlightedText:
+      "Rodha has helped me to score 99.76 percentile in CAT 24. Rodha has helped me specifically in VARC and LRDI. Thanks to the live classes, portal tests, sectional tests, and full-length mock tests.",
+
+    description:
+      "I have improved and developed a structured way to approach the questions. The vast and varied list of questions that I had at my disposal was all thanks to Rodha. Practicing these questions again and again helped me to develop the mindset and approach, because of which I was able to secure 99.76 percentile in CAT."
+  },
+
+
+  {
+    name: "Yash Pal",
+    batch: "Batch - B2",
+    institute: "IIM Mumbai",
+    image: Student_1Array[9],
+    imager: Icon_1,
+    highlightedText:
+      "The structured approach, expert faculty, and constant mentoring helped me stay focused and improve consistently. The mock tests played a crucial role in identifying my weak areas and working on them.",
+
+    description:
+      "Coming from an Agriculture background, I knew I had to put in extra effort to crack the CAT. Joining Rodha turned out to be a great platform for my preparation journey. Thanks to the guidance and support from the Rodha team, I was able to convert IIM Lucknow."
+  },
 
   // {
   //   name: "Adarsh Pandey",

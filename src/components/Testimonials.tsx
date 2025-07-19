@@ -51,6 +51,7 @@ const testimonials: Testimonial[] = [
     description:
       " 500+ sets later, I still couldn't exhaust the resources I got here.The pace and depth of the classes helped me stay consistent throughout my prep. Rodha has been a cornerstone of my CAT journey and success!",
   },
+  
   {
     name: "Ali Ahmed Khan",
     batch: "Batch - B4",

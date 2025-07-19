@@ -1,5 +1,5 @@
 import { Check } from "lucide-react";
-import Programs from '../assets/images/programs/Programs.png'
+import Programs from '../assets/images/programs/Programs.png';
 
 export default function MockPrograms() {
   return (
@@ -16,7 +16,7 @@ export default function MockPrograms() {
 
           {/* Cards */}
           {[...Array(5)].map((_, i) => (
-            <div key={i} className="group relative min-w-[85%] sm:min-w-0 snap-start hover:bg-[#545454] hover:text-white flex items-start justify-between bg-white flex-col dark:bg-[#1C1C1C] border-2 border-gray-200 dark:border-[#7c7c7c] rounded-xl p-6 text-left transition duration-300">
+            <div key={i} className="group relative min-w-[85%] sm:min-w-0 snap-start bg-white dark:bg-[#1C1C1C] border-2 border-gray-200 dark:border-[#7c7c7c] rounded-xl p-6 text-left transition duration-300 hover:bg-gradient-to-r hover:from-[#1c1c1c] hover:to-[#454546] hover:text-white">
               {i === 0 && (
                 <div className="absolute -top-4 left-4 bg-[#FF6B00] text-white text-xs font-semibold px-3 py-1 rounded-full">
                   Most Recommended
@@ -98,7 +98,7 @@ export default function MockPrograms() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="mt-6 bg-[#FF6B00] hover:bg-[#fff] hover:text-[#000] text-white text-sm font-semibold py-2 px-10 rounded-full transition duration-300 cursor-pointer">
+                <button className="mt-6 bg-[#FF6B00] hover:bg-white hover:text-black text-white text-sm font-semibold py-2 px-10 rounded-full transition duration-300 cursor-pointer">
                   Buy Now
                 </button>
               </a>
@@ -112,7 +112,7 @@ export default function MockPrograms() {
           >
             <div>
               <p className="text-white dark:text-white text-3xl font-semibold mb-4">
-                Check out our <br /> full comprehensive <br /> preparation <br /> programs
+                Check out our <br /> Full Comprehensive <br /> Preparation <br /> Programs
               </p>
               <a
                 href="https://www.rodha.co.in/s/store"

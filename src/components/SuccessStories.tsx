@@ -2,17 +2,23 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import stories_1 from '../assets/images/stories/black-carbon-texture.jpg';
 import testmonislteam from '../assets/images/testimonials/images.png';
+import testmonislteam1 from '../assets/images/testimonials/2.png';
+import testmonislteam2 from '../assets/images/testimonials/4.png';
 
 export default function SuccessStories() {
   const [activeTab, setActiveTab] = useState("CAT");
 
+    const images: Record<string, string> = {
+    CAT: testmonislteam,
+    XAT: testmonislteam1,
+    SNAP: testmonislteam2,
+  };
   const cardStyle = (tab: string) =>
     `relative transition-all duration-300 ease-in-out p-4 md:p-10 rounded-md bg-cover bg-center text-white overflow-hidden 
-     flex flex-col justify-between ${
-       activeTab !== tab 
-         ? "w-full md:w-44 cursor-pointer min-h-[150px]" 
-         : "flex-1 h-[480px]" // fixed height to prevent layout shift
-     }`;
+     flex flex-col justify-between ${activeTab !== tab
+      ? "w-full md:w-44 cursor-pointer min-h-[150px]"
+      : "flex-1 h-[480px]" // fixed height to prevent layout shift
+    }`;
 
   // ✅ Collapsed Card accepts exam name and returns dynamic content
   const CollapsedCard = (exam: string) => {
@@ -21,6 +27,8 @@ export default function SuccessStories() {
       XAT: "XAT 2025 Toppers",
       SNAP: "SNAP 2024 Toppers",
     };
+
+
 
     const subtitles: Record<string, string> = {
       CAT: "30+ Scored 99.5+",
@@ -44,6 +52,8 @@ export default function SuccessStories() {
   };
 
   const ExpandedCard = (exam: string) => (
+
+    
     <>
       <div className="absolute bottom-2 right-2 text-2xl">❯</div>
       <h3 className="text-xl md:text-6xl font-bold text-left text-white">
@@ -64,7 +74,11 @@ export default function SuccessStories() {
         </li>
       </ul>
       <div className="flex flex-wrap gap-2 sm:w-[60%] float-right">
-        <img src={testmonislteam} className="w-full object-cover" />
+        <img
+          src={images[exam]}
+          className="w-full object-cover rounded-md shadow"
+          alt={`${exam} topper`}
+        />
       </div>
     </>
   );

@@ -7,10 +7,6 @@ import icon_3 from '../assets/images/footer/Layer 23.png'
 import footer_logo from '../assets/images/footer/footer-logo.png'
 
 
-
-
-
-
 import {
   FaFacebookF,
   FaInstagram,
@@ -18,9 +14,11 @@ import {
   FaLinkedinIn,
   FaYoutube,
 } from "react-icons/fa6";
+import MobileBottomMenu from "./MobileBottomMenu";
 
 export default function Footer() {
   return (
+     <>
     <footer className="bg-[#1B1B1B] text-white text-sm" style={{ backgroundImage: `url(${footer_img})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", }}>
       <div className="px-6 py-12 max-w-7xl mx-auto grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-8">
         {/* Logo & Social */}
@@ -106,5 +104,7 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    <MobileBottomMenu/>
+   </>
   );
 }

@@ -94,7 +94,7 @@ const Form = () => {
   };
 
   return (
-    <div className="relative w-full px-4 py-10 md:px-20 bg-white dark:bg-[#242424] text-[#2B2B2B] dark:text-white">
+    <div id="contact" className="relative w-full px-4 py-10 md:px-20 bg-white dark:bg-[#242424] text-[#2B2B2B] dark:text-white">
       {showPopup && status === "success" && (
         <div className="absolute top-4 right-4 z-50 flex items-center bg-green-500 text-white px-4 py-2 rounded-lg shadow-md">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-6 h-6 mr-2">
@@ -118,22 +118,31 @@ const Form = () => {
                 <PhoneCall className="text-[#FF7300]" />  Call Us
               </div>
               <div className="mt-2 space-y-1 text-xl sm:text-[28px] dark:text-[#b5b6b5] text-left pl-10">
-                <h3>+91-9394324046</h3>
-                <p>+91-7982212251</p>
-                <p>+91-9874218333</p>
-                <p>+91-9997577662</p>
+                <h3>
+                  <a href="tel:+919394324046" className="hover:text-[#FD6A02]">+91-9394324046</a>
+                </h3>
+                <p>
+                  <a href="tel:+917982212251" className="hover:text-[#FD6A02]">+91-7982212251</a>
+                </p>
+                <p>
+                  <a href="tel:+919874218333" className="hover:text-[#FD6A02]">+91-9874218333</a>
+                </p>
+                <p>
+                  <a href="tel:+919997577662" className="hover:text-[#FD6A02]">+91-9997577662</a>
+                </p>
               </div>
+
             </div>
             <div>
               <div className="flex items-center text-2xl dark:text-[#b5b6b5] gap-2 font-medium">
                 <Mail className="text-[#FF7300]" /> Email Us
               </div>
-              <p className="mt-2 dark:text-[#b5b6b5] text-xl sm:text-[28px] text-left pl-10">contactus@rodha.co.in</p>
+              <p className="mt-2 dark:text-[#b5b6b5] text-xl sm:text-[28px] text-left pl-10"><a href="mailto:contactus@rodha.co.in" className="hover:text-[#FD6A02]">contactus@rodha.co.in</a></p>
             </div>
           </div>
         </div>
         {/* Form Start Here */}
-        
+
         <div id="EnquireNow" className="w-full md:w-6/6 bg-[#444444] p-5 md:p-10 sm:p-10 rounded-xl border border-[#959595]">
           <h3 className="text-2xl py-5 font-bold text-left text-white mb-4">
             Send a <span className="text-orange-500">Message</span>

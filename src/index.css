@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @theme {
   --font-poppins: Poppins, sans-serif;
 }
@@ -9,4 +11,14 @@ padding: 0rem;
 }
 html, body {
   overflow-x: hidden;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+@layer utilities {
+  .animate-zoomColor {
+    animation: zoom 2s ease-in-out infinite, colorPulse 3s ease-in-out infinite;
+  }
 }

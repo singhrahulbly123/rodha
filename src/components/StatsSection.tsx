@@ -5,19 +5,22 @@ const StatBox = ({ target, label, orange }: { target: number, label: React.React
 
   useEffect(() => {
     let start = 0;
-    const duration = 1000; // total duration in ms
-    const increment = Math.ceil(target / (duration / 20));
+    const duration = 3500; // slower: 2.5 seconds
+    const startTime = performance.now();
 
-    const timer = setInterval(() => {
-      start += increment;
-      if (start >= target) {
-        start = target;
-        clearInterval(timer);
+    const animate = (currentTime: number) => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const currentCount = Math.floor(progress * target);
+
+      setCount(currentCount);
+
+      if (progress < 1) {
+        requestAnimationFrame(animate);
       }
-      setCount(start);
-    }, 20);
+    };
 
-    return () => clearInterval(timer);
+    requestAnimationFrame(animate);
   }, [target]);
 
   return (

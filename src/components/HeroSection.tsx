@@ -69,7 +69,7 @@ const HeroSection = () => {
         </div>
 
         {/* Right Image Section */}
-        <div className="relative flex justify-center items-center pt-10">
+        <div className="relative flex justify-center items-center pt-0 sm:pt-10">
           <img
             src={Hero_1}
             alt="Rodha Mentor"

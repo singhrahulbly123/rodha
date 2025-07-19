@@ -25,7 +25,7 @@ const faculty = [
 const HeroSection = () => {
   return (
     <div
-      className="bg-black text-white py-10 pb-0 font-sans bg-back"
+      className="bg-black text-white py-10 pb-0 p-4 sm:p-0 font-sans bg-back"
       style={{ backgroundImage: `url(${Bg_Back})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 pb-5">

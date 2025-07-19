@@ -34,14 +34,14 @@ const HeroSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-            <button className="bg-yellow-400 hover:bg-yellow-500 text-black py-3 sm:mb-0 mb-3 sm:px-15 sm:py-4 md:px-10 md:py-4 rounded-full text-sm sm:text-base font-semibold w-full sm:w-auto">
+            <button className="bg-yellow-400 hover:bg-yellow-500 text-black py-3 sm:mb-0 mb-3 sm:px-15 sm:py-4 md:px-8 md:py-4 rounded-full text-sm sm:text-base font-semibold w-full sm:w-auto">
               Take A Free Mock
             </button>
             </a>
              <a
                 href="#package"
               >
-            <button className="bg-orange-500 hover:bg-orange-600 py-4 py-3 sm:mb-0 mb-3 text-white sm:px-15 sm:py-4 md:px-10 md:py-4 rounded-full text-sm sm:text-base font-semibold w-full sm:w-auto">
+            <button className="bg-orange-500 hover:bg-orange-600 py-4 py-3 sm:mb-0 mb-3 text-white sm:px-15 sm:py-4 md:px-8 md:py-4 rounded-full text-sm sm:text-base font-semibold w-full sm:w-auto">
               Buy Rodha Mocks for CAT 2025
             </button>
             </a>

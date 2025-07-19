@@ -64,7 +64,7 @@ export default function Faculty() {
             <img
               src={selectedMember?.image}
               alt={selectedMember?.name}
-              className="w-[100]  mx-auto"
+              className="w-[250px]  mx-auto"
             />
             <Dialog.Title className="text-xl font-bold text-[#FF6B00]">{selectedMember?.name}</Dialog.Title>
             <p className="text-gray-700 dark:text-gray-300 text-sm">{selectedMember?.desc}</p>

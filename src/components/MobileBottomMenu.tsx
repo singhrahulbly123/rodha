@@ -67,6 +67,10 @@ const MobileBottomMenu = () => {
                 </a>
 
                 {/* Enquiry */}
+                <a
+                    href="#EnquireNow"
+                    rel="noopener noreferrer"
+                >
                 <button
                     onClick={() => {
                         const enquiry = document.getElementById("contact");
@@ -77,6 +81,7 @@ const MobileBottomMenu = () => {
                     <FileText size={22} />
                     <span className="text-xs mt-1">Enquiry</span>
                 </button>
+                </a>
             </div>
         </div>
     );

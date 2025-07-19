@@ -109,13 +109,13 @@ export default function Footer() {
             © 2023 <span className="text-orange-500">Rodha Education</span>. All rights reserved.
           </span>
           <div className="space-x-4 mt-2 sm:mt-0">
-            <a href="https://mocks.rodha.co.in/terms/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+            <a href="/terms-conditions" rel="noopener noreferrer" className="hover:underline">
               Terms & Conditions
             </a>
-            <a href="https://mocks.rodha.co.in/refund/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+            <a href="/refund-policy" rel="noopener noreferrer" className="hover:underline">
               Refund Policy
             </a>
-            <a href="https://mocks.rodha.co.in/privacy/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+            <a href="/privacy-policy/" rel="noopener noreferrer" className="hover:underline">
               Privacy Policy
             </a>
           </div>

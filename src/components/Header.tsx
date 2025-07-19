@@ -17,7 +17,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-white dark:bg-[#121212] shadow-sm py-4 px-4 text-black">
+    <header className="sticky top-0 z-50 bg-white dark:bg-[#121212] shadow-sm py-2 px-4 text-black">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Mobile + Tablet */}
         <div className="flex items-center justify-between w-full lg:hidden">

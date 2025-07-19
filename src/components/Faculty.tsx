@@ -14,11 +14,12 @@ const teamImagesArray = sortedImageKeys.map(key => (teamImages[key] as any).defa
 const faculty = [
   { name: "Ravi Sir", image: teamImagesArray[0], highlight: true },
   { name: "Apoorv Sir", image: teamImagesArray[1] },
-  { name: "Nikita Ma’am", image: teamImagesArray[5], highlight: true },
-  { name: "Sharwari Ma’am", image: teamImagesArray[8] },
-  { name: "KD Sir", image: teamImagesArray[2], highlight: true },
   { name: "Swapnil Sir", image: teamImagesArray[3] },
   { name: "Tarun Sir", image: teamImagesArray[4], highlight: true },
+  { name: "KD Sir", image: teamImagesArray[2], highlight: true },
+
+  { name: "Nikita Ma’am", image: teamImagesArray[5], highlight: true },
+  { name: "Sharwari Ma’am", image: teamImagesArray[8] },
 
   { name: "Brijesh Sir", image: teamImagesArray[6] },
   { name: "Sanchit Sir", image: teamImagesArray[7], highlight: true },

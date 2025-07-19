@@ -19,7 +19,7 @@ export default function ScoreCard() {
     <div className="bg-[#ffffff] text-white py-5 sm:py-16 dark:bg-[#242424] dark:text-black">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-black dark:text-white text-3xl font-bold pb-10">
-          Track <span className="text-orange-500">Improve. Excel</span>
+          Track. <span className="text-orange-500">Improve. Excel</span>
         </h2>
 
         {/* Metrics Row */}
@@ -62,7 +62,7 @@ export default function ScoreCard() {
                   <p>09</p>
                 </div>
                 <div className="flex justify-between border-b border-gray-200 dark:border-gray-700 py-2">
-                  <p>Left Question</p>
+                  <p>Left Questions</p>
                   <p>11</p>
                 </div>
               </div>

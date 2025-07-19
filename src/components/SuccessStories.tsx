@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import stories_1 from '../assets/images/stories/black-carbon-texture.jpg';
 import testmonislteam from '../assets/images/testimonials/images.png';
 import testmonislteam1 from '../assets/images/testimonials/2.png';
-import testmonislteam2 from '../assets/images/testimonials/4.png';
+import testmonislteam2 from '../assets/images/testimonials/latest.png';
 
 export default function SuccessStories() {
   const [activeTab, setActiveTab] = useState("CAT");

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Banner_1 from "../assets/images/banner/bannerimage.jpg";
 import Banner_2 from "../assets/images/banner/darkmode.jpg";
-import Girls from "../assets/images/banner/girls.png";
+import Girls from "../assets/images/banner/awords.png";
 
 export default function CatMockBanner() {
   const [bgImage, setBgImage] = useState(Banner_2);
@@ -65,7 +65,7 @@ export default function CatMockBanner() {
         </div>
 
         {/* Image */}
-        <div className="relative w-full md:w-1/4 max-w-7xl mx-auto z-10 pt-16 sm:pt-0">
+        <div className="relative w-full md:w-1/3 max-w-9xl mx-auto z-10 pt-16 sm:pt-0">
           <img
             src={Girls}
             alt="Girl Holding Books"

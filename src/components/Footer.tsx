@@ -91,11 +91,11 @@ export default function Footer() {
                 <a href="tel:+919997577662" className="hover:text-[#FD6A02]">+91-9997577662</a>
               </li>
               <li className="flex items-center">
-                <img src={icon_2} className="w-[25px] h-[25px] mr-3" />
+                <img src={icon_2} className="w-[25px] h-[20px] mr-3" />
                 <a href="mailto:contactus@rodha.co.in" className="hover:text-[#FD6A02]">contactus@rodha.co.in</a>
               </li>
               <li className="flex items-center">
-                <img src={icon_3} className="w-[25px] h-[25px] mr-3" />
+                <img src={icon_3} className="w-[25px] h-[23px] mr-3" />
                 Mon-Sat: 9:00 AM - 6:00 PM
               </li>
             </ul>

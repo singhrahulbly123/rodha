@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function Term() {
   return (
+    
     <div className="min-h-screen bg-white dark:bg-[#121212] text-[#2B2B2B] dark:text-white">
+      
       {/* Header Section */}
       <div className="bg-gray-100 dark:bg-[#1f1f1f] py-10 px-4 sm:px-0 border-b border-gray-300 dark:border-gray-700">
         <div className="max-w-5xl mx-auto text-center">
@@ -21,11 +23,6 @@ export default function Term() {
       {/* Content Section */}
       <div className="px-4 sm:px-8 py-14 bg-white dark:bg-[#121212]">
         <div className="max-w-5xl mx-auto space-y-10">
-          <div className="text-center">
-            <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300">
-              Please read these terms carefully before using our services.
-            </p>
-          </div>
 
           <div className="bg-zinc-50 dark:bg-[#1A1A1A] p-6 sm:p-10 rounded-2xl shadow-md border border-gray-200 dark:border-gray-700">
             <div className="space-y-8 text-[15px] sm:text-[17px] leading-7 text-gray-800 dark:text-gray-200">
@@ -60,7 +57,7 @@ export default function Term() {
                 </h2>
                 <p>Unless otherwise stated, Rodha and or its licensors own the intellectual property rights for all material on https://mocks.rodha.co.in. All intellectual property rights are reserved. You may access this from https://mocks.rodha.co.in for your own personal use subject to restrictions set in these terms and conditions. </p>
                 <h5>You must not: </h5>
-                <ul className="list-disc list-inside mt-2 space-y-1">
+                <ul className="list-disc pl-6 space-y-1">
                   <li>Republish material from  <a href="https://mocks.rodha.co.in" className="text-blue-600 underline ml-1" target="_blank" rel="noopener noreferrer">https://mocks.rodha.co.in</a> </li>
                   <li>Sell, rent or sub-license material from  <a href="https://mocks.rodha.co.in" className="text-blue-600 underline ml-1" target="_blank" rel="noopener noreferrer">https://mocks.rodha.co.in</a></li>
                   <li>Reproduce, duplicate or copy material from  <a href="https://mocks.rodha.co.in" className="text-blue-600 underline ml-1" target="_blank" rel="noopener noreferrer">https://mocks.rodha.co.in</a> </li>
@@ -70,7 +67,7 @@ export default function Term() {
                 <p>Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. Rodha does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Rodha, its agents and or affiliates. Comments reflect the views and opinions of the person who posts them. To the extent permitted by applicable laws, Rodha shall not be liable for the Comments or for any liability, damages or expenses caused and or suffered as a result
                   of any use of and or posting of and or appearance of the Comments on this website. Rodha reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or cause breach of these Terms and Conditions. You warrant and represent that:
                 </p>
-                <ul className="list-disc list-inside mt-2 space-y-1">
+                <ul className="list-disc pl-6 space-y-1">
                   <li>You are entitled to post the Comments on our website and have all necessary licences and consents to do so. </li>
                   <li>The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party.</li>
                   <li>The Comments do not contain any defamatory, libellous, offensive, indecent or otherwise unlawful material which is an invasion of privacy. </li>
@@ -87,20 +84,23 @@ export default function Term() {
                   The following organisations may link to our website without prior written approval:
                 </p>
                 <p className="mt-2">You warrant that your comments:</p>
-                <ul className="list-disc list-inside mt-2 space-y-1">
+                <ul className="list-disc pl-6 space-y-1">
                   <li>Government agencies </li>
                   <li>Search engines </li>
                   <li>News organisations </li>
                   <li>Online directory distributors may link to our website in the same manner as they hyperlink to the websites of other listed businesses </li>
-                  <li>System-wide Accredited Businesses except soliciting non-profit organisations, charity shopping malls and charity fundraising groups which may not hyperlink to our website These organisations may link to our home page, to publications or to other website information so long as the link: </li>
-                  <ol>
-                    <li>is not in any way deceptive; </li>
-                    <li> does not falsely imply sponsorship, endorsement or approval of the linking party and its products and or services; and </li>
-                    <li>fits within the context of the linking party’s site</li>
-                  </ol>
+                  <li>System-wide Accredited Businesses except soliciting non-profit organisations, charity shopping malls and charity fundraising groups which may not hyperlink to our website  </li>
+                 
                 </ul>
+                <p>These organisations may link to our home page, to publications or to other website information so long as the link:</p>
+                 <ul className="list-disc pl-6 space-y-1">
+                    <li>(a) is not in any way deceptive; </li>
+                    <li>(b) does not falsely imply sponsorship, endorsement or approval of 
+                      the linking party and its products and or services; and </li>
+                    <li>(c) fits within the context of the linking party’s site</li>
+                  </ul>
                 <p>We may consider and approve other link requests from the following types of organisations:</p>
-                <ul>
+                <ul className="list-disc pl-6 space-y-1">
                   <li>Commonly known consumer and or business information sources</li>
                   <li>Dot-com community sites </li>
                   <li>Associations or other groups representing charities </li>
@@ -110,21 +110,21 @@ export default function Term() {
                   <li> Educational institutions and trade associations </li>
                 </ul>
                 <p>We will approve link requests from these organisations if we decide that:</p>
-                <ol>
+                <ul className="list-disc pl-6 space-y-1">
                   <li>the link would not make us look unfavourably to ourselves or to our accredited businesses; </li>
                   <li>the organisation does not have any negative records with us; </li>
                   <li>the benefit to us from the visibility of the hyperlink compensates the absence of Rodha; and </li>
                   <li>the link is in the context of general resource information. </li>
-                </ol>
+                </ul>
                 <p>These organisations may link to our home page so long as the link:</p>
-                <ol>
-                  <li>is not in any way deceptive; </li>
-                  <li>does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and </li>
-                  <li>fits within the context of the linking party’s site. </li>
-                </ol>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>(a) is not in any way deceptive; </li>
+                  <li>(b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and </li>
+                  <li>(c) fits within the context of the linking party’s site. </li>
+                </ul>
                 <p>If you are one of the organisations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to Rodha. Please include your name, your organisation name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our website and a list of the URLs on our site to which you would like to link. Wait two to three weeks for a response. </p>
                 <p>Approved organisations may hyperlink to our website as follows: </p>
-                <ul>
+                <ul className="list-disc pl-6 space-y-1">
                   <li>By use of our corporate name; or </li>
                   <li>By use of the uniform resource locator being linked to; or </li>
                   <li>By use of any other description of our website being linked to that makes sense within the context and format of content on the linking party’s site.</li>
@@ -139,7 +139,7 @@ export default function Term() {
                 <p>
                   The following may link to us without prior approval:
                 </p>
-                <ul className="list-disc list-inside mt-2 space-y-1">
+                <ul className="list-disc pl-6 space-y-1">
                   <li>Government agencies, search engines, and news outlets</li>
                   <li>Online directories and educational institutions</li>
                   <li>Professional firms and portals</li>
@@ -190,7 +190,7 @@ export default function Term() {
                 <p>
                  To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will: 
                 </p>
-                <ul>
+                <ul className="list-disc pl-6 space-y-1">
                   <li>Limit or exclude our or your liability for death or personal injury </li>
                   <li>Limit or exclude our or your liability for fraud or fraudulent misrepresentation </li>
                   <li>Limit any of our or your liabilities in any way that is not permitted under applicable law </li>

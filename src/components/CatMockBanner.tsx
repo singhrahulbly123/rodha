@@ -41,7 +41,7 @@ export default function CatMockBanner() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             {/* First Button */}
-            <a href="https://examrodha.thinkexam.com/startTest/NA/MTI4Nzk2MzU=" target="_blank">
+            <a href="https://exam.rodha.co.in/startTest/NA/MTI4Nzk2MzU=" target="_blank">
             <button
               className="relative overflow-hidden bg-white text-[#FD6A02] font-semibold px-6 py-3 rounded-full text-sm group transition-all duration-300 ease-in-out cursor-pointer hover:scale-[1.03]"
             >

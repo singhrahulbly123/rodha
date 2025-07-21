@@ -104,7 +104,7 @@ export default function WhyChooseUs() {
 
           {/* Enroll Button with animation */}
           <a
-            href="http://examrodha.thinkexam.com"
+            href="https://exam.rodha.co.in/candidate/login"
             target="_blank"
             rel="noopener noreferrer"
           >

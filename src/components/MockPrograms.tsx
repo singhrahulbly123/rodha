@@ -89,11 +89,11 @@ export default function MockPrograms() {
               </ul>
               <a
                 href={[
-                  "https://examrodha.thinkexam.com/packages/RodhaCATMocksandOMETSPackage/MTYwNQ==",
-                  "https://examrodha.thinkexam.com/packages/RodhaCATMocksandSectionalTests/MTYwNA==",
-                  "https://examrodha.thinkexam.com/packages/RodhaCATMocks/MTYwMw==",
-                  "https://examrodha.thinkexam.com/packages/RodhaSectionalTests/MTYwMg==",
-                  "https://examrodha.thinkexam.com/startTest/NA/MTI4Nzk2MzU="
+                  "https://exam.rodha.co.in/packages/RodhaCATMocksandOMETSPackage/MTYwNQ==",
+                  "https://exam.rodha.co.in/packages/RodhaCATMocksandSectionalTests/MTYwNA==",
+                  "https://exam.rodha.co.in/packages/RodhaCATMocks/MTYwMw==",
+                  "https://exam.rodha.co.in/packages/RodhaSectionalTests/MTYwMg==",
+                  "https://exam.rodha.co.in/startTest/NA/MTI4Nzk2MzU="
                 ][i]}
                 target="_blank"
                 rel="noopener noreferrer"

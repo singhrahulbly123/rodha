@@ -24,7 +24,7 @@ const Header = () => {
           <img src={Logo} alt="Rodha Logo" className="h-12" />
           <div className="flex items-center gap-2 sm:gap-3">
             <a
-              href="http://examrodha.thinkexam.com"
+              href="https://exam.rodha.co.in/candidate/login"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -33,7 +33,7 @@ const Header = () => {
               </button>
             </a>
             <a
-              href="http://examrodha.thinkexam.com"
+              href="https://exam.rodha.co.in/candidate/login"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -59,7 +59,7 @@ const Header = () => {
           </nav>
           <div className="flex space-x-3">
             <a
-              href="http://examrodha.thinkexam.com"
+              href="https://exam.rodha.co.in/candidate/login"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -68,7 +68,7 @@ const Header = () => {
               </button>
             </a>
             <a
-              href="http://examrodha.thinkexam.com"
+              href="https://exam.rodha.co.in/candidate/login"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -92,12 +92,12 @@ const Header = () => {
             </div>
 
             <div className="mb-8 flex gap-3">
-              <a href="http://examrodha.thinkexam.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://exam.rodha.co.in/candidate/login" target="_blank" rel="noopener noreferrer">
                 <button className="border border-white text-white px-8 py-2 rounded-full text-sm hover:bg-white hover:text-black transition w-full">
                   Login
                 </button>
               </a>
-              <a href="http://examrodha.thinkexam.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://exam.rodha.co.in/candidate/login" target="_blank" rel="noopener noreferrer">
                 <button className="bg-[#FF6B00] text-white px-8 py-2 rounded-full text-sm hover:bg-orange-600 transition w-full">
                   Sign Up
                 </button>

@@ -49,7 +49,7 @@ const HeroSection = () => {
 
           <div className="mt-5 sm:flex flex-col sm:flex-row flex-nowrap gap-4">
             <a
-              href="https://examrodha.thinkexam.com/startTest/NA/MTI4Nzk2MzU="
+              href="https://exam.rodha.co.in/startTest/NA/MTI4Nzk2MzU="
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto"

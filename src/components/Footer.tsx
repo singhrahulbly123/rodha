@@ -106,7 +106,7 @@ export default function Footer() {
         {/* Bottom Line */}
         <div className="border-t border-gray-700 py-4 text-center text-gray-400 text-xs sm:text-sm flex flex-col sm:flex-row justify-between items-center px-6 max-w-7xl mx-auto">
           <span>
-            © 2025 <span className="text-orange-500">Rodha Education</span>. All rights reserved.
+            © 2023 <span className="text-orange-500">Rodha Education</span>. All rights reserved.
           </span>
           <div className="space-x-4 mt-2 sm:mt-0">
             <a href="/terms-conditions" rel="noopener noreferrer" className="hover:underline">

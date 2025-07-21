@@ -13,55 +13,59 @@ export default function Term() {
           <div className="text-sm text-gray-600 dark:text-gray-400">
             <Link to="/" className="hover:underline text-orange-500">
               Home
-            </Link>{" "}
-            / Terms & Conditions
+            </Link>{" "}/ Terms & Conditions
           </div>
         </div>
       </div>
 
       {/* Content Area */}
       <div className="px-6 sm:px-10 py-14">
-        <div className="max-w-5xl mx-auto">
-          <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 mb-8 text-center">
-            Please read these terms carefully before using our services.
+        <div className="max-w-5xl mx-auto prose prose-gray dark:prose-invert prose-lg">
+          <p>Please read these terms carefully before using our services.</p>
+
+          <p>
+            Welcome to Rodha! These terms and conditions outline the rules and regulations for the use of Rodha's website, located at
+            <a href="https://mocks.rodha.co.in" className="text-orange-500" target="_blank" rel="noopener noreferrer"> https://mocks.rodha.co.in</a>. By accessing this website we assume you accept these terms and conditions. Do not continue to use the website if you do not agree to all of the terms stated on this page.
           </p>
 
-          <div className="space-y-6 text-base sm:text-lg leading-relaxed">
-            <p>
-              By accessing and using our website and services, you agree to
-              comply with the following terms and conditions. These terms may
-              be updated periodically, so we encourage you to review them
-              regularly.
-            </p>
+          <p>
+            The terminology used in these terms includes “Client”, “You” and “Your” referring to you, the user of this website; “The Company”, “Ourselves”, “We”, “Our” and “Us” refers to Rodha; and “Party”, “Parties”, or “Us” refers to both the Client and ourselves. These terms govern your access to and use of the website and all related services.
+          </p>
 
-            <ul className="list-disc list-inside space-y-3 text-gray-800 dark:text-gray-200">
-              <li>
-                Users must provide accurate and current information during
-                registration.
-              </li>
-              <li>
-                All content on this website is the intellectual property of{" "}
-                <strong>Rodha</strong> and may not be reproduced without
-                permission.
-              </li>
-              <li>
-                Misuse of services, including cheating or attempting to hack,
-                will lead to account termination.
-              </li>
-              <li>
-                Rodha reserves the right to modify or discontinue services at
-                any time without prior notice.
-              </li>
-              <li>
-                Users are responsible for maintaining the confidentiality of
-                their login credentials.
-              </li>
-            </ul>
+          <h2>Cookies</h2>
+          <p>We employ the use of cookies. By accessing our website, you agree to use cookies in accordance with our Privacy Policy.</p>
 
-            <p className="text-sm text-gray-500 dark:text-gray-400 italic">
-              Last updated: July 2025
-            </p>
-          </div>
+          <h2>License</h2>
+          <p>
+            Unless otherwise stated, Rodha and/or its licensors own the intellectual property rights for all material on the site. You may access it for your own personal use, subject to the restrictions set in these terms.
+          </p>
+          <ul>
+            <li>Do not republish material from the site.</li>
+            <li>Do not sell, rent or sub-license material.</li>
+            <li>Do not reproduce, duplicate or copy material.</li>
+            <li>Do not redistribute content from the website.</li>
+          </ul>
+
+          <h2>User Comments</h2>
+          <p>Comments posted on the website reflect the opinions of the individuals posting them and not those of Rodha. Rodha shall not be liable for such Comments. However, we reserve the right to monitor and remove any content deemed inappropriate or in breach of these Terms.</p>
+
+          <h2>Hyperlinking</h2>
+          <p>
+            Certain organizations may link to our website without prior written approval, including government agencies, search engines, and news organizations. We may also approve requests from other entities, provided they meet our criteria.
+          </p>
+
+          <h2>Content Liability</h2>
+          <p>We are not responsible for content that appears on external websites linking to ours. You agree to defend us against all claims arising on your website.</p>
+
+          <h2>Reservation of Rights</h2>
+          <p>We reserve the right to request the removal of all links or any particular link to our website. We also reserve the right to amend these terms and linking policy at any time.</p>
+
+          <h2>Disclaimer</h2>
+          <p>
+            To the maximum extent permitted by law, we exclude all representations and warranties relating to this website and its use. Nothing in this disclaimer will limit or exclude any liabilities not permitted under applicable law.
+          </p>
+
+          <p className="text-sm text-gray-500 dark:text-gray-400 italic">Last updated: July 2025</p>
         </div>
       </div>
     </div>

@@ -8,6 +8,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import NotFound from "./pages/NotFound";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -87,6 +88,7 @@ function App() {
         
         
         } />
+        <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>

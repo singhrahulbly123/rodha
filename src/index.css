@@ -3,22 +3,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @theme {
   --font-poppins: Poppins, sans-serif;
 }
+
 #root {
-padding: 0rem;
+  padding: 0rem;
 }
-html, body {
+
+html,
+body {
   overflow-x: hidden;
 }
-html, body, #root {
+
+html,
+body,
+#root {
   height: 100%;
   margin: 0;
   padding: 0;
 }
+
 @layer utilities {
   .animate-zoomColor {
     animation: zoom 2s ease-in-out infinite, colorPulse 3s ease-in-out infinite;
   }
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  padding-left: 1rem;
+}
+
+ul li,
+ol li {
+  margin-bottom: 0.4rem;
+  line-height: 1.6;
+}
+
+ul li::marker,
+ol li::marker {
+  color: #f97316;
+  /* Tailwind's orange-500 */
 }

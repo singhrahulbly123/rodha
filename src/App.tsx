@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { FaMoon, FaSun } from "react-icons/fa";
-
+import { BASE_URL } from "@/config/constants"; 
 import Terms from "./pages/Terms";
 import RefundPolicy from "./pages/RefundPolicy";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -42,7 +42,8 @@ function App() {
   );
 
   return (
-    <Router>
+    
+    <Router basename="/">
       <div className="bg-white dark:bg-[#121212] text-gray-900 dark:text-white transition-all duration-300">
         <ThemeToggleButton />
 

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { BASE_URL } from "@/config/constants";
 import Logo from "../assets/images/logo/logo.png";
 
 const Header = () => {
@@ -52,7 +53,7 @@ const Header = () => {
           <img src={Logo} alt="Rodha Logo" className="h-16" />
           <nav className="flex items-center space-x-6 dark:text-white text-base font-light font-poppins">
             {menuItems.map((item, idx) => (
-              <a key={idx} href={item.href} className="hover:text-[#FF6B00]">
+              <a key={idx} href={`${BASE_URL}${item.href}`} className="hover:text-[#FF6B00]">
                 {item.label}
               </a>
             ))}
@@ -108,7 +109,7 @@ const Header = () => {
               {menuItems.map((item, idx) => (
                 <a
                   key={idx}
-                  href={item.href}
+                  href={`${BASE_URL}${item.href}`}
                   className="px-2 py-3 border-b border-gray-600 hover:text-[#FF6B00] transition"
                 >
                   {item.label}

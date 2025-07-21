@@ -67,7 +67,7 @@ export default function Faculty() {
               className="w-[250px]  mx-auto"
             />
             <Dialog.Title className="text-xl font-bold text-[#FF6B00]">{selectedMember?.name}</Dialog.Title>
-            <p className="text-gray-700 dark:text-gray-300 text-sm">{selectedMember?.desc}</p>
+{/*             <p className="text-gray-700 dark:text-gray-300 text-sm">{selectedMember?.desc}</p> */}
 
             <button
               onClick={() => setSelectedMember(null)}

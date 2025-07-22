@@ -100,7 +100,7 @@ export default function Faculty1() {
               </div>
 
               <p className="mt-2 text-sm md:text-base font-medium">{member.name}</p>
-               <div className="d-block sm:hidden inset-0 flex items-end justify-center transition-opacity opacity-100 sm:opacity-0 sm:group-hover:opacity-100">
+               <div className="mt-2 d-block sm:hidden inset-0 flex items-end justify-center transition-opacity opacity-100 sm:opacity-0 sm:group-hover:opacity-100">
                   <button
                     onClick={() => setSelectedMember(member)}
                     className="cursor-pointer px-3 py-1 bg-orange-600 text-white text-[10px] rounded-full hover:bg-orange-700"

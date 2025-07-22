@@ -110,6 +110,7 @@ const Header = () => {
                 <a
                   key={idx}
                   href={`${BASE_URL}${item.href}`}
+                  onClick={() => setIsOpen(false)} 
                   className="px-2 py-3 border-b border-gray-600 hover:text-[#FF6B00] transition"
                 >
                   {item.label}

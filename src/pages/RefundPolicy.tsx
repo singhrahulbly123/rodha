@@ -1,54 +1,59 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function RefundPolicy() {
+
+
+export default function Term() {
   return (
+    
     <div className="min-h-screen bg-white dark:bg-[#121212] text-[#2B2B2B] dark:text-white">
-      {/* Top breadcrumb and title section */}
-      <div className="bg-gray-100 dark:bg-[#1f1f1f] py-10 px-4 sm:px-0">
+      
+      {/* Header Section */}
+      <div className="bg-gray-100 dark:bg-[#1f1f1f] py-10 px-4 sm:px-0 border-b border-gray-300 dark:border-gray-700">
         <div className="max-w-5xl mx-auto text-center">
-          <h1 className="text-3xl sm:text-5xl font-bold text-orange-500 mb-2">
-            Refund Policy
+          <h1 className="text-3xl sm:text-5xl font-bold text-orange-500 mb-4">
+            Cancellation & Refunds
           </h1>
           <div className="text-sm text-gray-600 dark:text-gray-400">
             <Link to="/" className="hover:underline text-orange-500">
               Home
-            </Link>{" "}
-            / Refund Policy
+            </Link>{" / Cancellation & Refunds"} 
           </div>
         </div>
       </div>
 
-      {/* Main content */}
-      <div className="px-6 sm:px-10 py-14">
-        <div className="max-w-5xl mx-auto">
-          <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 mb-8 text-center">
-            Please read our refund guidelines carefully before making a purchase.
-          </p>
+      {/* Content Section */}
+      <div className="px-4 sm:px-8 py-14 bg-white dark:bg-[#121212]">
+        <div className="max-w-5xl mx-auto space-y-10">
 
-          <div className="space-y-6 text-base sm:text-lg leading-relaxed">
-            <p>
-              We understand that plans may change. However, due to the digital
-              nature of our products and the resources involved in preparing
-              mocks and materials, we follow a strict no-refund policy.
-            </p>
+          <div className="bg-zinc-50 dark:bg-[#1A1A1A] p-6 sm:p-10 rounded-2xl shadow-md border border-gray-200 dark:border-gray-700">
+            <div className="space-y-8 text-[15px] sm:text-[17px] leading-7 text-gray-800 dark:text-gray-200">
+              <section>
+                <h2 className="text-xl font-semibold text-orange-500 mb-3 border-b border-gray-300 dark:border-gray-600 pb-1">
+                  Thank you for registering the e-learning course at Rodha
+                </h2>
+              </section>
 
-            <ul className="list-disc list-inside space-y-3 text-gray-800 dark:text-gray-200">
-              <li>
-                All purchases are final and non-refundable once access is granted.
-              </li>
-              <li>
-                In rare cases of duplicate transactions or technical errors, please
-                contact support within 7 days.
-              </li>
-              <li>
-                Refunds will be processed only if a valid reason is approved by our team.
-              </li>
-            </ul>
+              <section>
+                <h2 className="text-xl font-semibold text-orange-500 mb-3 border-b border-gray-300 dark:border-gray-600 pb-1">
+                  Returns
+                </h2>
+                <p>
+                  Unfortunately digital courses sold at Rodha cannot be cancelled/refunded.
 
-            <p className="text-sm text-gray-500 dark:text-gray-400 italic">
-              Last updated: July 2025
-            </p>
+                </p>
+              </section>
+
+               <section>
+                <h2 className="text-xl font-semibold text-orange-500 mb-3 border-b border-gray-300 dark:border-gray-600 pb-1">
+                  Contact Us
+                </h2>
+                <p>
+                  If you have any questions on refund policy, kindly contact us at <a href="mailto:contactus@rodha.co.in">contactus@rodha.co.in</a>
+                </p>
+              </section>
+              <p className="text-sm text-gray-500 dark:text-gray-400 italic">Last updated: July 2025</p>
+            </div>
           </div>
         </div>
       </div>

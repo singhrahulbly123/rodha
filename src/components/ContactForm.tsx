@@ -52,47 +52,46 @@ const Form = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    const errors = validateForm();
-    setFormErrors(errors);
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  const errors = validateForm();
+  setFormErrors(errors);
 
-    if (Object.keys(errors).length > 0) return;
+  if (Object.keys(errors).length > 0) return;
 
-    try {
-      const response = await fetch("https://api.brevo.com/v3/smtp/email", {
-        method: "POST",
-        headers: {
-          accept: "application/json",
-          "api-key": "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",
-          "content-type": "application/json"
-        },
-        body: JSON.stringify({
-          sender: { name: formData.name, email: formData.email },
-          to: [{ email: "singhrahulbly123@gmail.com", name: "Rahul" }],
-          subject: `New message from ${formData.name} (${formData.phone})`,
-          htmlContent: `<p><strong>Name:</strong> ${formData.name}</p><p><strong>Email:</strong> ${formData.email}</p><p><strong>Phone:</strong> ${formData.phone}</p><p><strong>Message:</strong> ${formData.message}</p>`
-        })
-      });
+  try {
+    const response = await fetch("https://rodha.mockup4clients.com/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        message: formData.message
+      }),
+    });
 
-      if (response.ok) {
-        setStatus("success");
-        setShowPopup(true);
-        setFormData({ name: "", email: "", phone: "", message: "", "bot-field": "" });
-      } else {
-        console.error("❌ Mail sending failed:", await response.text());
-        setStatus("error");
-      }
-    } catch {
+    if (response.ok) {
+      setStatus("success");
+      setShowPopup(true);
+      setFormData({ name: "", email: "", phone: "", message: "", "bot-field": "" });
+    } else {
+      console.error("❌ Server error:", await response.text());
       setStatus("error");
-    } finally {
-      setTimeout(() => {
-        setStatus("");
-        setShowPopup(false);
-      }, 3000);
     }
-  };
-
+  } catch (error) {
+    console.error("❌ Exception:", error);
+    setStatus("error");
+  } finally {
+    setTimeout(() => {
+      setStatus("");
+      setShowPopup(false);
+    }, 3000);
+  }
+};
   return (
     <div id="contact" className="relative w-full px-4 py-10 md:px-20 bg-white dark:bg-[#242424] text-[#2B2B2B] dark:text-white">
       {showPopup && status === "success" && (

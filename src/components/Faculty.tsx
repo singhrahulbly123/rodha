@@ -10,7 +10,7 @@ interface FacultyMember {
   image: string;
 }
 
-export default function Faculty() {
+const Faculty: React.FC = () => {
   const [faculty, setFaculty] = useState<FacultyMember[]>([]);
   const [selectedMember, setSelectedMember] = useState<FacultyMember | null>(null);
 
@@ -18,13 +18,13 @@ export default function Faculty() {
     axios
       .get(`https://rodha.mockup4clients.com/faculty`)
       .then((res) => {
-         console.log("✅ API Response:", res);
+        console.log("✅ API Response:", res);
         if (res.data.status) {
-            console.log("✅ Data received:", res.data.data);
+          console.log("✅ Data received:", res.data.data);
           setFaculty(res.data.data);
         } else {
-        console.warn("⚠️ API returned false status:", res.data);
-      }
+          console.warn("⚠️ API returned false status:", res.data);
+        }
       })
       .catch((error) => {
         console.error("Failed to fetch faculty:", error);
@@ -82,50 +82,56 @@ export default function Faculty() {
 
       {/* Dialog Popup */}
       <Dialog open={!!selectedMember} onClose={() => setSelectedMember(null)} className="relative z-50">
-        {/* Overlay */}
-        <div className="fixed inset-0 bg-black/50" aria-hidden="true" />
+        {selectedMember && (
+          <>
+            {/* Overlay */}
+            <div className="fixed inset-0 bg-black/50" aria-hidden="true" />
 
-        {/* Dialog Content */}
-        <div className="fixed inset-0 flex items-center justify-center p-4">
-          <Dialog.Panel className="mx-auto max-w-lg w-full rounded-2xl bg-white dark:bg-[#1e1e1e] p-6 shadow-lg space-y-6">
-            <div className="flex flex-col items-center text-center">
-              <img
-                src={`https://rodha.mockup4clients.com/${selectedMember?.image}`}
-                alt={selectedMember?.name}
-                className="w-[200px] h-[220px] object-scale-down"
-              />
-              <Dialog.Title className="text-xl font-bold mt-4 text-orange-600">
-                {selectedMember?.name}
-              </Dialog.Title>
-            </div>
+            {/* Dialog Content */}
+            <div className="fixed inset-0 flex items-center justify-center p-4">
+              <Dialog.Panel className="mx-auto max-w-lg w-full rounded-2xl bg-white dark:bg-[#1e1e1e] p-6 shadow-lg space-y-6">
+                <div className="flex flex-col items-center text-center">
+                  <img
+                    src={`https://rodha.mockup4clients.com/${selectedMember.image}`}
+                    alt={selectedMember.name}
+                    className="w-[200px] h-[220px] object-scale-down"
+                  />
+                  <Dialog.Title className="text-xl font-bold mt-4 text-orange-600">
+                    {selectedMember.name}
+                  </Dialog.Title>
+                </div>
 
-            {/* Description Bullet Points */}
-            <div className="text-sm text-gray-800 dark:text-gray-300 leading-relaxed space-y-2">
-              {selectedMember?.description
-                ?.replace(/\r\n|\n/g, "")
-                .split("•")
-                .map((line) => line.trim())
-                .filter(Boolean)
-                .map((line, idx) => (
-                  <p key={idx} className="flex items-start gap-2 mb-0">
-                    <span className="text-orange-500 mt-1">•</span>
-                    <span>{line}</span>
-                  </p>
-                ))}
-            </div>
+                {/* Description Bullet Points */}
+                <div className="text-sm text-gray-800 dark:text-gray-300 leading-relaxed space-y-2">
+                  {selectedMember.description
+                    ?.replace(/\r\n|\n/g, "")
+                    .split("•")
+                    .map((line) => line.trim())
+                    .filter(Boolean)
+                    .map((line, idx) => (
+                      <p key={idx} className="flex items-start gap-2 mb-0">
+                        <span className="text-orange-500 mt-1">•</span>
+                        <span>{line}</span>
+                      </p>
+                    ))}
+                </div>
 
-            {/* Close Button */}
-            <div className="text-center">
-              <button
-                onClick={() => setSelectedMember(null)}
-                className="mt-6 px-4 py-2 rounded-full bg-orange-600 hover:bg-orange-700 text-white text-xs font-semibold transition"
-              >
-                Close
-              </button>
+                {/* Close Button */}
+                <div className="text-center">
+                  <button
+                    onClick={() => setSelectedMember(null)}
+                    className="mt-6 px-4 py-2 rounded-full bg-orange-600 hover:bg-orange-700 text-white text-xs font-semibold transition"
+                  >
+                    Close
+                  </button>
+                </div>
+              </Dialog.Panel>
             </div>
-          </Dialog.Panel>
-        </div>
+          </>
+        )}
       </Dialog>
     </div>
   );
-}
+};
+
+export default Faculty;

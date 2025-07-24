@@ -10,7 +10,7 @@ interface FacultyMember {
   image: string;
 }
 
-export default function Faculty1() {
+export default function Faculty() {
   const [faculty, setFaculty] = useState<FacultyMember[]>([]);
   const [selectedMember, setSelectedMember] = useState<FacultyMember | null>(null);
 

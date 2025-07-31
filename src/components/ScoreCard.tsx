@@ -19,7 +19,7 @@ export default function ScoreCard() {
     <div className="bg-[#ffffff] text-white py-5 sm:py-16 dark:bg-[#242424] dark:text-black">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-black dark:text-white text-3xl font-bold pb-10">
-          Track. <span className="text-orange-500">Improve. Excel</span>
+          Track . <span className="text-orange-500">Improve . Excel</span>
         </h2>
 
         {/* Metrics Row */}
@@ -106,7 +106,7 @@ export default function ScoreCard() {
 
           {/* Chart Section */}
           <div className="bg-white text-black dark:bg-[#fff] dark:text-black p-4 rounded-xl shadow border border-gray-200">
-            <h3 className="text-xl font-semibold mb-4">Difficulty V/S Marks Distributions</h3>
+            <h3 className="text-xl font-semibold mb-4">Difficulty v/s Marks Distributions</h3>
             <ResponsiveContainer width="100%" height={180}>
               <BarChart
                 layout="vertical"

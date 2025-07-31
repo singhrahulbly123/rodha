@@ -9,7 +9,7 @@ const Header = () => {
   const toggleSidebar = () => setIsOpen(!isOpen);
 
   const menuItems = [
-    { label: "Home", href: "#" },
+    { label: "Home", href: "" },
     { label: "Why Choose Us?", href: "#why-choose-us" },
     { label: "Our Programs", href: "#package" },
     { label: "Faculty", href: "#faculty" },

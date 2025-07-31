@@ -34,7 +34,7 @@ const HeroSection = () => {
             Elevate Your CAT 2025 <br /> Preparation With Rodha Mocks
           </h1>
           <p className="mt-3 text-lg md:text-4xl font-light">
-            Get the Closest Experience To <br /> The Actual CAT Exam
+            Get The Closest Experience To <br /> The Actual CAT Exam
           </p>
           <p className="mt-4 text-sm md:text-lg font-semibold py-6 text-gray-300">
             Mentored By India’s Top MBA Experts <br />

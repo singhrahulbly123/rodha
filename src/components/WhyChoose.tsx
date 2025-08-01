@@ -12,7 +12,7 @@ const features = [
   },
   {
     title: "Extensive Test Series",
-    desc: "Practice with high-quality questions designed by seasoned educators.",
+    desc: "10,000+ High-Quality test questions crafted by experts",
     highlight: "10+",
     subtext: "Students with 99+ %ile percentile in SNAP 2024",
     bg: "bg-[#333333]",
@@ -20,7 +20,7 @@ const features = [
   },
   {
     title: "Complete Video Solutions & Strategy Sessions",
-    desc: "Practice with high-quality questions designed by seasoned educators.",
+    desc: "Comprehensive Video Solutions for ALL questions, Strategy-Based Mock Analysis Sessions",
     highlight: "50+",
     subtext: "BLACK Courses in 2024",
     bg: "bg-[#FF6D1B]",
@@ -28,7 +28,7 @@ const features = [
   },
   {
     title: "Advanced Performance Tracking",
-    desc: "Practice with high-quality questions designed by seasoned educators.",
+    desc: "Percentile Tracking Tool, Closest Experience To The Actual CAT Exam",
     highlight: "90+",
     subtext: "Growers in BLACK X R, SPJAIN in 2024",
     bg: "bg-[#333333]",

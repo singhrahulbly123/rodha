@@ -18,8 +18,11 @@ export default function ScoreCard() {
   return (
     <div className="bg-[#ffffff] text-white py-5 sm:py-16 dark:bg-[#242424] dark:text-black">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-center text-black dark:text-white text-3xl font-bold pb-10">
-          Track . <span className="text-orange-500">Improve . Excel</span>
+        <h2 className="text-center text-black dark:text-white text-3xl font-bold pb-10 flex justify-center items-center">
+          Track <span className="align-middle pb-3 px-2"> . </span>
+          <b className="text-orange-500">
+            Improve <span className="align-middle pb-3 inline-block">.</span> Excel
+          </b>
         </h2>
 
         {/* Metrics Row */}

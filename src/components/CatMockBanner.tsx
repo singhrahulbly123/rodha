@@ -52,7 +52,7 @@ export default function CatMockBanner() {
             </a>
 
             {/* Second Button */}
-            <button
+            {/* <button
               className="relative overflow-hidden border border-white text-white font-semibold px-6 py-3 rounded-full text-sm group transition-all duration-300 ease-in-out cursor-pointer hover:scale-[1.03]"
             >
               <span className="relative z-10 group-hover:text-[#FD6A02] transition-colors duration-300">
@@ -60,7 +60,7 @@ export default function CatMockBanner() {
               </span>
               <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out"></span>
               <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-white group-hover:w-full group-hover:left-0 transition-all duration-300 ease-in-out"></span>
-            </button>
+            </button> */}
           </div>
         </div>
 

@@ -1,121 +1,82 @@
 import React from "react";
-import { Check } from "lucide-react";
-import WhyUs from "../assets/images/whychoose/whychoose.png";
+import bridgeBG from "../assets/images/background/bgback.png";
 
-export default function WhyChooseUs() {
+const features = [
+  {
+    title: "Extensive Test Series",
+    desc: "Get 30 CAT mocks, 50 OMET mocks, 105 sectional tests, and 40+ topic-wise tests for thorough preparation.",
+    highlight: "30+",
+    subtext: "Students with 99%ile percentile in CAT 2024",
+    bg: "bg-[#FF6D1B]",
+    text: "text-white",
+  },
+  {
+    title: "Extensive Test Series",
+    desc: "Practice with high-quality questions designed by seasoned educators.",
+    highlight: "10+",
+    subtext: "Students with 99+ %ile percentile in SNAP 2024",
+    bg: "bg-[#333333]",
+    text: "text-white",
+  },
+  {
+    title: "Complete Video Solutions & Strategy Sessions",
+    desc: "Practice with high-quality questions designed by seasoned educators.",
+    highlight: "50+",
+    subtext: "BLACK Courses in 2024",
+    bg: "bg-[#FF6D1B]",
+    text: "text-white",
+  },
+  {
+    title: "Advanced Performance Tracking",
+    desc: "Practice with high-quality questions designed by seasoned educators.",
+    highlight: "90+",
+    subtext: "Growers in BLACK X R, SPJAIN in 2024",
+    bg: "bg-[#333333]",
+    text: "text-white",
+  },
+];
+
+const WhyChooseUs = () => {
   return (
-    <div
-      id="why-choose-us"
-      className="bg-white dark:bg-[#121212] text-[#2B2B2B] dark:text-white flex items-center justify-center py-16"
-    >
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
-        {/* Left: Image */}
-        <div className="w-full md:w-1/2 flex justify-center mb-12 md:mb-0">
-          <img
-            src={WhyUs}
-            alt="Instructor"
-            className="rounded-lg max-h-[500px] object-contain"
-          />
+    <section className="relative bg-[#1D1D1D] py-16 px-4 overflow-hidden">
+      <div className="max-w-6xl mx-auto text-center z-10 relative ">
+        <h2 className="text-white text-3xl md:text-4xl font-semibold mb-4">
+          Why <span className="text-[#FF6D1B]">Choose Us?</span>
+        </h2>
+        <p className="text-gray-300 max-w-2xl mx-auto mb-16">
+          Rodha is not just another CAT coaching program. <span className="text-[#FF6D1B]">We focus on developing skills</span> that make you stand out in the corporate world.
+        </p>
+        <div className="w-[100%] hidden sm:block pointer-events-none select-none">
+          <img src={bridgeBG}/>
         </div>
 
-        {/* Right: Content */}
-        <div className="w-full md:w-1/2 px-4 md:px-8 text-left">
-          <h2 className="text-4xl font-semibold mb-4 leading-tight">
-            Why <span className="text-[#FF6B00] font-bold">Choose Us?</span>
-          </h2>
-          <p className="text-[17px] mb-6 text-[#4A4A4A] dark:text-[#CCCCCC] font-semibold">
-            Rodha is not just another CAT coaching program.{" "}
-            <span className="text-[#FF6B00] font-semibold">
-              We focus on developing skills
-            </span>{" "}
-            that make you stand out in the corporate world.
-          </p>
-
-          <ul className="space-y-3 flex text-[16px] text-[#333333] dark:text-gray-200 text-left font-semibold">
-            <div>
-              <li className="py-2 flex">
-                <Check className="w-6 font-bold  mr-2" />
-                <p>
-                  <span className="text-[#FF6B00] font-semibold">30 CAT</span>{" "}
-                  Mocks,{" "}
-                  <span className="text-[#FF6B00] font-semibold">50 OMET</span>{" "}
-                  Mocks,{" "}
-                  <span className="text-[#FF6B00] font-semibold">
-                    105 Sectional
-                  </span>{" "}
-                  Tests,{" "}
-                  <span className="text-[#FF6B00] font-semibold">
-                    40+ Topic-wise
-                  </span>{" "}
-                  Tests
-                </p>
-              </li>
-
-              <li className="py-2 flex">
-                <Check className="w-6 font-bold mr-2" />
-                <p>
-                  {" "}
-                  <span className="font-semibold">10,000+</span> High-Quality
-                  test questions crafted by experts
-                </p>
-              </li>
-
-              <li className="py-2 flex">
-                <Check className="w-6 font-bold mr-2" />
-                <p>
-                  <span className="font-semibold text-[#FF6B00]">
-                    Comprehensive Video Solutions
-                  </span>{" "}
-                  for ALL questions
-                </p>
-              </li>
-              <li className="py-2 flex">
-                <Check className="w-6 font-bold mr-2" />
-                <p>
-                  {" "}
-                  <span className="font-semibold text-[#FF6B00]">
-                    Strategy-Based
-                  </span>{" "}
-                  Mock Analysis Sessions
-                </p>
-              </li>
-              <li className="py-2 flex">
-                <Check className="w-6 font-bold mr-2" />
-                <p>
-                  {" "}
-                  <span className="font-semibold text-[#FF6B00]">
-                    Percentile Tracking
-                  </span>{" "}
-                  Tool
-                </p>
-              </li>
-              <li className="py-2 flex">
-                <Check className="w-6 font-bold mr-2" />
-                <p>
-                  {" "}
-                  Closest Experience To{" "}
-                  <span className="text-[#FF6B00] font-semibold">
-                    The Actual CAT Exam
-                  </span>
-                </p>
-              </li>
-            </div>
-          </ul>
-
-          {/* Enroll Button with animation */}
-          <a
-            href="https://exam.rodha.co.in/candidate/login"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button
-              className="mt-8 bg-[#FF6B00] hover:bg-[#fff] hover:text-[#000] border dark:border-[#000] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 shadow-md transform hover:scale-105 cursor-pointer"
+         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 sm:hidden">
+          {features.map((feature, idx) => (
+            <div
+              key={idx}
+              className={`relative p-6 rounded-t-[20px] shadow-lg ${feature.bg} ${feature.text} transition-transform transform hover:-translate-y-2 duration-300`}
             >
-              Enroll Now
-            </button>
-          </a>
+              <div className="absolute inset-0 opacity-10 bg-center bg-contain bg-no-repeat" style={{ backgroundImage: `url('/assets/images/background/group-bg.png')` }}></div>
+              <h3 className="text-lg font-semibold relative z-10 mb-2 min-h-[56px]">
+                {feature.title}
+              </h3>
+              <p className="text-sm relative z-10 min-h-[80px]">
+                {feature.desc}
+              </p>
+              <div className="mt-6 relative z-10">
+                <p className="text-4xl font-bold">{feature.highlight}</p>
+                <p className="text-xs mt-1 text-gray-300 max-w-[90%] mx-auto">
+                  {feature.subtext}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-    </div>
+
+
+    </section>
   );
-}
+};
+
+export default WhyChooseUs;

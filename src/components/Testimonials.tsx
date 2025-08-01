@@ -3,13 +3,13 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import clsx from "clsx";
 import Icon_1 from "../assets/images/student/icon-1.png";
 
-const StudentImages = import.meta.glob("../assets/images/student/studen-*.png", {
+const StudentImages = import.meta.glob("../assets/images/student/student-*.png", {
   eager: true,
 });
 
 const sortedImageKeys = Object.keys(StudentImages).sort((a, b) => {
-  const numA = parseInt(a.match(/student-(\d+)/)?.[1] || "0", 10);
-  const numB = parseInt(b.match(/student-(\d+)/)?.[1] || "0", 10);
+  const numA = parseInt(a.match(/student-(\d+)/)?.[1] || "0", 22);
+  const numB = parseInt(b.match(/student-(\d+)/)?.[1] || "0", 22);
   return numA - numB;
 });
 
@@ -159,33 +159,171 @@ const testimonials: Testimonial[] = [
       "Coming from an Agriculture background, I knew I had to put in extra effort to crack the CAT. Joining Rodha turned out to be a great platform for my preparation journey. Thanks to the guidance and support from the Rodha team, I was able to convert IIM Lucknow."
   },
 
-  // {
-  //   name: "Adarsh Pandey",
-  //   batch: "Batch - B2",
-  //   institute: "IIM Lucknow",
-  //   image: Student_1Array[2],
-  //   imager: Icon_1,
-  //   highlightedText:
-  //     "Especially in VARC both Ayush and KD sir were superb in there teaching ways there tips and tricks were highly beneficial. And in Quant and LRDI the quality and quantity was superb.",
+  {
+    name: "Adarsh Pandey",
+    batch: "Batch - B2",
+    institute: "IIM Lucknow",
+    image: Student_1Array[10],
+    imager: Icon_1,
+    highlightedText:
+      "Yes definitely Rodha has helped a lot.Especially in VARC both Ayush and KD sir were superb in there teaching ways there tips and tricks were highly beneficial.And in Quant and LRDI the quality and quantity was superb",
 
-  //   description:
-  //     "Yes definitely Rodha has helped a lot.there are not too many platforms where the quantity is huge without compromising on quality so yes in this aspect also Rodha helped a lot. And obviously Ravi, Apoorv and Tarun sir were great in their teaching methodologies."
-  // },
+    description:
+      "there are not too many platforms where the quantity is huge without compromising on quality so yes in this aspect also Rodha helped a lot. And obviously Ravi, Apoorv and Tarun sir were great in their teaching methodologies."
+  },
 
 
 
-  // {
-  //   name: "Adarsh Pandey",
-  //   batch: "Batch - B2",
-  //   institute: "FMS",
-  //   image: Student_1Array[2],
-  //   imager: Icon_1,
-  //   highlightedText:
-  //     "Coming from a non-math background, things were really tough in the beginning. I felt lost, but I trusted Sir’s advice and kept pushing forward.",
+  {
+    name: "Satabdi Jena",
+    batch: "Batch - B4",
+    institute: "FMS",
+    image: Student_1Array[11],
+    imager: Icon_1,
+    highlightedText:
+      "When I started this journey, I was completely clueless. Joining Rodha turned out to be the best decision I ever made. I began with Rodha’s YouTube videos and later subscribed to their course. Ravi Sir’s guidance was truly invaluable—I don’t think I could’ve cracked the exam without his support.",
 
-  //   description:
-  //     "When I started this journey, I was completely clueless. Joining Rodha turned out to be the best decision I ever made. I began with Rodha’s YouTube videos and later subscribed to their course. Ravi Sir’s guidance was truly invaluable—I don’t think I could’ve cracked the exam without his support. I’m truly grateful to Rodha for making this possible."
-  // },
+    description:
+      "Coming from a non-math background, things were really tough in the beginning. I felt lost, but I trusted Sir’s advice and kept pushing forward. I’m truly grateful to Rodha for making this possible."
+  },
+
+    {
+    name: "Jeelan Vohra",
+    batch: "Batch - B4 ",
+    institute: "IIM Bangalore",
+    image: Student_1Array[12],
+    imager: Icon_1,
+    highlightedText:
+      "This is regarding my CAT journey. I enrolled in rodha around 20 september with only 2 months to spare. Being a non engineer, it seemed like a mountain to climb, but I was able to sail through by god’s grace.",
+
+    description:
+      "The only mocks I took were of Rodha, no other series. My whole sole credit for the written part goes to you. Finally, I’ll be joining IIM B. Thank you for creating Rodha and onboarding the best people. You and Tarun sir have been very instrumental in my journey to IIM B."
+  },
+
+    {
+    name: "Prafful Pratap Singh",
+    batch: "Batch - B2",
+    institute: "IIM Calcutta",
+    image: Student_1Array[13],
+    imager: Icon_1,
+    highlightedText:
+      "Honestly, I joined RODHA feeling pretty lost. I had doubts, struggled with consistency, and there were times I just wanted to quit. But the way the classes were run ,it wasn’t like typical coaching. They were actually fun.",
+
+    description:
+      "More than anything, what stuck with me was how they never let me give up. That kind of support matters more than people realize. I am truly grateful for what Ravi Sir has built."
+  },
+
+    {
+    name: "Ali Ahmed Khan",
+    batch: "Batch - B1",
+    institute: "IIM Ahmedabad",
+    image: Student_1Array[14],
+    imager: Icon_1,
+    highlightedText:
+      "Being a GEM and a working professional who had already flunked my first attempt at CAT, I knew that this time around I could not afford to make mistakes in my preparation phase.So i enrolled in the upcoming batch so I could have a better grasp on the concepts and improve my score this time around.",
+
+    description:
+      "The classes at Rodha have been instrumental in improving my core concepts. The material provided and the practice tests on the application have been a massive help in the same."
+  },
+    {
+    name: "Shivang Kasana",
+    batch: "Batch - B4",
+    institute: "IIM Bangalore",
+    image: Student_1Array[15],
+    imager: Icon_1,
+    highlightedText:
+      "I started CAT prep in April last year and quickly realized the lack of challenging LRDI sets available through most online resources. That’s when I came across the Rodha YouTube channel and decided to join the B4 batch in May '24.",
+
+    description:
+      "500+ sets later, I still couldn't exhaust the resources I got here. The pace and depth of the classes helped me stay consistent throughout my prep. Rodha has been a cornerstone of my CAT journey and success!"
+  },
+
+   {
+    name: "Purushottam Jaiswal",
+    batch: "Batch - B4",
+    institute: "MDI Gurgaon",
+    image: Student_1Array[16],
+    imager: Icon_1,
+    highlightedText:
+      "Simply cannot comment on the teaching style; it is outstanding. I was initially unsure about what Rodha was, but after watching a few free YouTube videos, I realized that it was really catchy and excellent. ",
+
+    description:
+      "5To succeed in CAT, a student must complete daily drills, participate in interactive live sessions, and have outstanding understanding of Ravi sir. This was my second effort, and I am unable to explain the remarkable jump from the 69th to the 98.79th percentile. Only the magic of RODHA."
+  },
+
+
+  {
+    name: "Pankhudi Nasare",
+    batch: "Batch - B2",
+    institute: "IIM Kozhikode",
+    image: Student_1Array[17],
+    imager: Icon_1,
+    highlightedText:
+      "A big thank you to Team Rodha for building an all-encompassing CAT prep platform. The quality of education they offer is truly top-notch, and their dedication to leaving no stone unturned in providing access to the best mentors and resources is commendable.",
+
+    description:
+      "Their consistent commitment to excellence shines through in everything they do, and because of them, I never had to look elsewhere for direction or motivation."
+  },
+  {
+    name: "Tejasvin Arora",
+    batch: "Batch - B4",
+    institute: "IIM Calcutta",
+    image: Student_1Array[18],
+    imager: Icon_1,
+    highlightedText:
+      "Rodha played a crucial role in my CAT preparation journey with its structured approach and focus on concept clarity. Ravi Sir’s strategic guidance, Swapanil Sir’s quant shortcuts, and KD Sir’s in-depth VARC sessions helped me strengthen each section effectively.",
+
+    description:
+      "The personalized support during the GDPI phase, especially through mock interviews and detailed feedback, boosted my confidence and communication skills. I’m truly grateful to the Rodha team for their consistent mentorship and support throughout the process."
+  },
+  {
+    name: "Aakash Dwivedi",
+    batch: "Batch - B4",
+    institute: "IIM Bangalore",
+    image: Student_1Array[19],
+    imager: Icon_1,
+    highlightedText:
+      "Rodha was my one stop solution for everything CAT. The way Ravi sir explained concepts in LRDI and QA classes was too good, and it helped me build a solid base.",
+
+    description:
+      "The questions done in classes, topic tests, sectionals and mocks were high quality and gave a flavour of CAT on a higher level. The GDPI course also helped me with Gk/current affairs and helped me shape answers for my interviews."
+  },
+  {
+    name: "Nayan Yadav",
+    batch: "Batch - Zero To Zenith",
+    institute: "IIM Lucknow",
+    image: Student_1Array[20],
+    imager: Icon_1,
+    highlightedText:
+      "Ravi sir's Quant & LRDI is a must for anyone who's just starting to prepare for CAT or OMETS. I believe he's the best teacher out there in India for these 2 subjects.",
+
+    description:
+      "The way he motivates students and also keeps the classes entertaining; thanks to his sense of humor, helps the students a lot along the journey."
+  },
+  {
+    name: "Adarsh Kumar Singh",
+    batch: "Batch - B4",
+    institute: "IIT Bombay",
+    image: Student_1Array[21],
+    imager: Icon_1,
+    highlightedText:
+      "Rodha has played a big role in helping me prepare for CAT, OMETs, and my GDPI journey. The way they teach concepts step-by-step made it easy for me to understand and improve.",
+
+    description:
+      " I would like to specially thank Ravi Sir and KD sir, for improving my DILR and VARC respectively."
+  },
+  {
+    name: "Guntas Singh Chawla",
+    batch: "Batch - B2",
+    institute: "IIM Calcutta",
+    image: Student_1Array[22],
+    imager: Icon_1,
+    highlightedText:
+      "This was my second CAT attempt.The first time, I used to avoid Rodha because I found it needlessly tough, but after CAT 2023, I knew I had to face difficult curriculum to have any chance. The entire Rodha team was so helpful.",
+
+    description:
+      "Ravi Sir's lectures left nothing unclear, even for someone like me who's not from a mathematics background. Apoorv sir's coverage of sequence and series was amazing, I had that topic completely on my tips because of him. Tarun sir's jugaad, and explanations, and revision series in the last month was a lifesaver in geometry."
+  },
 ];
 
 export default function TestimonialsSlider() {

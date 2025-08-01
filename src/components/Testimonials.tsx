@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import clsx from "clsx";
 import Icon_1 from "../assets/images/student/icon-1.png";
 
 const StudentImages = import.meta.glob("../assets/images/student/student-*.png", {
   eager: true,
 });
-
+console.log(Object.keys(StudentImages));
 const sortedImageKeys = Object.keys(StudentImages).sort((a, b) => {
   const numA = parseInt(a.match(/student-(\d+)/)?.[1] || "0", 22);
   const numB = parseInt(b.match(/student-(\d+)/)?.[1] || "0", 22);

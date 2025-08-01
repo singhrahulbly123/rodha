@@ -43,7 +43,7 @@ const Whyus = () => {
         <h2 className="text-white text-3xl md:text-4xl font-semibold mb-4">
           Why <span className="text-[#FF6D1B]">Choose Us?</span>
         </h2>
-        <p className="text-gray-300 max-w-2xl mx-auto mb-16">
+        <p className="text-gray-300 max-w-2xl mx-auto mb-10">
           Rodha is not just another CAT coaching program. <span className="text-[#FF6D1B]">We focus on developing skills</span> that make you stand out in the corporate world.
         </p>
         <div className="w-[100%] hidden sm:block pointer-events-none select-none">

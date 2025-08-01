@@ -33,8 +33,8 @@ export default function SuccessStories() {
       highlights: [
         { text: "30+ Scored", color: "#6EE6FF" },
         { text: "99+ %ile", color: "#ffffffff" },
-        { text: "25+ Scored", color: "#FD6A02" },
-        { text: "99+ %ile", color: "#6EE6FF"},
+        { text: "", color: "#FD6A02" },
+        { text: "", color: "#6EE6FF"},
       ]
     },
     SNAP: {
@@ -44,8 +44,8 @@ export default function SuccessStories() {
       highlights: [
         { text: "25+ Scored", color: "#6EE6FF" },
         { text: "99+ %ile", color: "#ffffffff" },
-        { text: "25+ Scored", color: "#FD6A02" },
-        { text: "99+ %ile", color: "#6EE6FF"},
+        { text: "", color: "#FD6A02" },
+        { text: "", color: "#6EE6FF"},
       ]
     }
   };

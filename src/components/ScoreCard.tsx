@@ -21,7 +21,7 @@ export default function ScoreCard() {
         <h2 className="text-center text-black dark:text-white text-3xl font-bold pb-10 flex justify-center items-center">
           Track <span className="align-middle pb-3 px-2"> . </span>
           <b className="text-orange-500">
-            Improve <span className="align-middle pb-3 inline-block">.</span> Excel
+            Improve <span className="align-middle pb-3 inline-block">.</span> <span className="text-black dark:text-white">Excel</span>
           </b>
         </h2>
 

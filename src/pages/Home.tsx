@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
 import SuccessStories from "../components/SuccessStories";
-import WhyChoose from "../components/WhyChoose";
+
 import StatsSection from "../components/StatsSection";
 import MockPrograms from "../components/MockPrograms";
 import ComparisonTable from "../components/ComparisonTable";
@@ -13,6 +13,7 @@ import Testimonials from "../components/Testimonials";
 import CatMockBanner from "../components/CatMockBanner";
 import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <SuccessStories />
-      <WhyChoose />
+      <WhyChooseUs />
       <StatsSection />
       <MockPrograms />
       <ComparisonTable />

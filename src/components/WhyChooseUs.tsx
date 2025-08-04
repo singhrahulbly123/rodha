@@ -6,7 +6,7 @@ import Whyus from "./Whyus";
 export default function WhyChooseUs() {
   return (
     <>
-     {/* <div className="w-full md:w-1/2 m-auto px-4 md:px-8 text-center">
+     <div className="w-full md:w-1/2 m-auto px-4 md:px-8 text-center sm:pt-15">
           <h2 className="text-4xl font-semibold mb-4 leading-tight">
             Why <span className="text-[#FF6B00] font-bold">Choose Us?</span>
           </h2>
@@ -19,24 +19,24 @@ export default function WhyChooseUs() {
           </p>
 
 
-        </div> */}
+        </div>
      
     <div
       id="why-choose-us"
-      className="bg-white dark:bg-[#121212] text-[#2B2B2B] dark:text-white flex items-center justify-center py-16"
+      className="bg-white dark:bg-[#121212] text-[#2B2B2B] dark:text-white flex items-center justify-center pt-5"
     >
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center border-b-[2px] border-[#5a5a5a]">
         {/* Left: Image */}
-        <div className="w-full md:w-1/2 flex justify-center mb-12 md:mb-0">
+        <div className="w-full md:w-1/3 flex justify-center mb-12 md:mb-0">
           <img
             src={WhyUs}
             alt="Instructor"
-            className="rounded-lg max-h-[500px] object-contain"
+            className="rounded-lg object-contain"
           />
         </div>
 
         {/* Right: Content */}
-        <div className="w-full md:w-2/3 px-4 md:px-8 text-left">
+        <div className="w-full md:w-2/3 text-left">
             <Whyus/>
         </div>
       </div>

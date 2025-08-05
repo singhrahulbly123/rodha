@@ -241,9 +241,9 @@ const testimonials: Testimonial[] = [
     image: Student_1Array[0],
     imager: Icon_1,
     highlightedText:
-      "guidance I received from our teachers.",
+      "Rodha was an integral part of my journey. It not only helped me with its course but also with guidance I received from our teachers",
     description:
-      "Rodha was an integral part of my journey. It not only helped me with its course but also all this while. I'll forever be grateful for joining this amazing team. ",
+      "all this while. I'll forever be grateful for joining this amazing team.",
   },  
   {
     name: "Siddharth Dev",

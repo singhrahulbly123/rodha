@@ -103,7 +103,7 @@ const testimonials: Testimonial[] = [
    {
     name: "Prafful Pratap Singh",
     batch: "Batch - B2",
-    institute: "IIM Calcutta",
+    institute: "FMS",
     image: Student_1Array[13],
     imager: Icon_1,
     highlightedText:
@@ -131,7 +131,7 @@ const testimonials: Testimonial[] = [
     image: Student_1Array[5],
     imager: Icon_1,
     highlightedText:
-      "ODHA played a crucial role in helping me improve my performance in the Quant section, especially compared to last year when I scored only 50 percentile in CAT.",
+      "RODHA played a crucial role in helping me improve my performance in the Quant section, especially compared to last year when I scored only 50 percentile in CAT.",
 
     description:
       " R I'm truly grateful for their guidance. The GDPI course also significantly boosted my confidence for the interviews, and the regular current affairs updates kept me well-informed. The mentors were incredibly supportive throughout the journey.",

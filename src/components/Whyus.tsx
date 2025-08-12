@@ -5,24 +5,24 @@ import rodhasBG from "../assets/images/background/rodhas.png";
 
 const features = [
   {
-    title: "Extensive Test Series",
-    desc: "Get 30 CAT mocks, 50 OMET mocks, 105 sectional tests, and 40+ topic-wise tests for thorough preparation.",
+    title: "Extensive Practice Material",
+    desc: "⁠⁠30 CAT Mocks, 50 OMET Mocks, 105 Sectional Tests, 40+ Topic-wise Tests ⁠10,000+ High-Quality test questions crafted by experts", 
     bg: "bg-[#FF6D1B]",
     text: "text-white",
   },
   {
-    title: "Extensive Test Series",
-    desc: "10,000+ High-Quality test questions crafted by experts",
+    title: "Complete Learning Support",
+    desc: "⁠Comprehensive Video Solutions for ALL questions ⁠Strategy-Based Mock Analysis Sessions",
     title_new: "Advanced Performance Tracking",
     desc_new: "Percentile Tracking Tool, Closest Experience To The Actual CAT Exam",
-    highlight: "Advanced Performance Tracking",
-    subtext: "Percentile Tracking Tool, Closest Experience To The Actual CAT Exam",
+    highlight: "Smart Performance Tracking",
+    subtext: "⁠Percentile Tracking Tool ⁠Actionable insights to improve scores over time",
     bg: "bg-[#333333]",
     text: "text-white",
   },
   {
-    title: "Complete Video Solutions & Strategy Sessions",
-    desc: "Comprehensive Video Solutions for ALL questions, Strategy-Based Mock Analysis Sessions",
+    title: "Real Exam Experience",
+    desc: "⁠Closest Experience to the Actual CAT Exam Simulates the pressure, interface, and pattern of the real test",
     bg: "bg-[#FF6D1B]",
     text: "text-white",
   },

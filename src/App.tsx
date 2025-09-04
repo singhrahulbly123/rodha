@@ -34,12 +34,12 @@ function App() {
   }, []);
 
   // Show popup after 5 seconds
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowPopup(true);
-    }, 2000);
-    return () => clearTimeout(timer);
-  }, []);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setShowPopup(true);
+  //   }, 2000);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   const ThemeToggleButton = () => (
     <div className="fixed top-1/2 right-3 z-[9999] transform -translate-y-1/2 group">

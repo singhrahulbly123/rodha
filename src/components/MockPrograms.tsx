@@ -33,11 +33,11 @@ export default function MockPrograms() {
               </h3>
               <p className="text-[#FF6B00] text-5xl font-bold mb-4 text-left cursor-default">
                 {[
+                  "₹6,999/-",
                   "₹5,999/-",
-                  "₹4,999/-",
-                  "₹2,499/-",
-                  "₹2,999/-",
-                  "Free"
+                  "₹3,499/-",
+                  "₹3,999/-",
+                  "Free (No Change)"
                 ][i]}
               </p>
               <ul className="text-sm space-y-2 text-gray-700 font-bold pt-4 dark:text-gray-300 group-hover:text-white">

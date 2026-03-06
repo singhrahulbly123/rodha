@@ -35,7 +35,7 @@ export default function CatMockBanner() {
 
           <h1 className="text-3xl md:text-5xl font-semibold leading-tight mb-6 text-white">
             Take A Free Full-Length Mock <br className="hidden md:block" />
-            Today to Analyse Your CAT 2025 <br className="hidden md:block" />
+            Today to Analyse Your CAT 2026 <br className="hidden md:block" />
             Preparation
           </h1>
 
@@ -45,7 +45,7 @@ export default function CatMockBanner() {
             <button
               className="relative overflow-hidden bg-white text-[#FD6A02] font-semibold px-6 py-3 rounded-full text-sm group transition-all duration-300 ease-in-out cursor-pointer hover:scale-[1.03]"
             >
-              <span className="relative z-10">Rodha Mocks for CAT 2025</span>
+              <span className="relative z-10">Rodha Mocks for CAT 2026</span>
               <span className="absolute inset-0 bg-orange-100 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out"></span>
               <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-[#FD6A02] group-hover:w-full group-hover:left-0 transition-all duration-300 ease-in-out"></span>
             </button>

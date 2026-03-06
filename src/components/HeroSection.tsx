@@ -31,20 +31,20 @@ const HeroSection = () => {
           className="text-left flex flex-col justify-center"
         >
           <h1 className="text-2xl md:text-4xl font-semibold leading-snug">
-            Elevate Your CAT 2025 <br /> Preparation With Rodha Mocks
+            Elevate Your CAT 2026 <br /> Preparation With Rodha Mocks
           </h1>
           <p className="mt-3 text-lg md:text-4xl font-light">
             Get The Closest Experience To <br /> The Actual CAT Exam
           </p>
           <p className="mt-4 text-sm md:text-lg font-semibold py-6 text-gray-300">
             Mentored By India’s Top MBA Experts <br />
-            Curated according to students’ needs to ace the <br /> CAT 2025 Exam
+            Curated according to students’ needs to ace the <br /> CAT 2026 Exam
           </p>
 
           <hr className="border-orange-500 w-3/2" />
 
           <p className="text-xs md:text-base py-4">
-            Buy Rodha Mocks Today and Analyse Your CAT 2025 Preparation
+            Buy Rodha Mocks Today and Analyse Your CAT 2026 Preparation
           </p>
 
           <div className="mt-5 sm:flex flex-col sm:flex-row flex-nowrap gap-4">
@@ -64,7 +64,7 @@ const HeroSection = () => {
               <button
                 className="cursor-pointer bg-orange-500 hover:bg-[#fff] hover:text-[#000] border dark:border-[#000] py-3 sm:px-15 sm:py-4 md:px-8 md:py-4 text-white rounded-full text-sm sm:text-base font-semibold w-full sm:w-auto transition-all duration-300 transform hover:scale-105 shadow hover:shadow-xl animate-blink"
               >
-                Buy Rodha Mocks for CAT 2025
+                Buy Rodha Mocks for CAT 2026
               </button>
             </a>
           </div>

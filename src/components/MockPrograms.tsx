@@ -37,7 +37,7 @@ export default function MockPrograms() {
                   "₹5,999/-",
                   "₹3,499/-",
                   "₹3,999/-",
-                  "Free (No Change)"
+                  "Free"
                 ][i]}
               </p>
               <ul className="text-sm space-y-2 text-gray-700 font-bold pt-4 dark:text-gray-300 group-hover:text-white">

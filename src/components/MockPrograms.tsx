@@ -35,7 +35,7 @@ export default function MockPrograms() {
                 {[
                   "₹6,999/-",
                   "₹5,999/-",
-                  "₹3,499/-",
+                  "₹3,999/-",
                   "₹3,999/-",
                   "Free"
                 ][i]}
@@ -131,3 +131,4 @@ export default function MockPrograms() {
     </div>
   );
 }
+
